@@ -1,0 +1,35 @@
+<div class="menu">
+  <div class="menu-head">
+    <span class="layer">
+      <div class="col">
+        <div class="row for-pic">
+          <div class="profile-pic">
+            <a href="/"><img src="<%= theme.avatar%>" alt="<%- config.author%>"/></a>
+          </div>
+        </div>
+        <div class="row for-name">
+          <p><%- config.author%></p>
+          <span class="tagline"><%- theme.personal_des%></span>
+        </div>
+      </div>
+    </span>
+  </div>
+  <nav class="menu-container">
+  <ul class="menu-items">
+    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+    <%if (theme.menu.enable) {%><li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-bookmark fa-fw"></i>页面</span>
+        <ul>
+          <% for (var i in theme.menu.links){ %><li><a href="<%= url_for(theme.menu.links[i]) %>"><%= i %></a></li>
+        <% } %></ul>
+    </li><%}%>
+    <%if (theme.friends.enable) {%><li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-link fa-fw"></i>友链</span>
+        <ul>
+          <% for (var j in theme.friends.links){ %><li> <a href="<%= url_for(theme.friends.links[j]) %>" target="_blank"><%= j %></a></li>
+        <% } %></ul>
+    </li><%}%>
+  </ul>
+  </nav>
+</div>

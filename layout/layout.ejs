@@ -1,0 +1,52 @@
+<% var pageTitle = page.title || '';
+if (is_archive()) pageTitle = __('Archives');
+if (is_tag()) pageTitle = __('Tag') + '-' + page.tag;
+if (is_category()) pageTitle = __('Category') + '-' + page.category;
+if (pageTitle == '') {
+    pageTitle = config.title;
+} else {
+    pageTitle += ' | ' + config.title;
+}%><!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><%=pageTitle%></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="<%- config.author%>">
+  <meta name="keywords" content="<%- config.keywords%>">
+  <meta name="description" content="<%- config.description%>">
+  <%- partial('partials/config')%>
+  <link rel="shortcut icon" href="<%- theme.favicon%>">
+  <link rel="stylesheet" href="<%= theme.base_file.css%>main.css">
+  <script src="<%= theme.base_file.js%>jquery.min.js"></script>
+  <script src="<%= theme.base_file.js%>jquery.jside.menu.js"></script>
+	<script>
+	$(document).ready(function(){
+	$(".menu-container").jSideMenu({
+	    jSidePosition: "position-right",
+	    jSideSticky: true,
+	    jSideSkin: "<%- theme.menu_theme%>",
+	     });
+	}); 
+	</script>
+  <%-partial('third-party/analytics/index')%>
+  <link rel="stylesheet" href="<%= theme.base_file.font%>">
+  <link rel="stylesheet" href="<%= theme.font_awsome%>">
+</head>
+<body>
+<%- body %>
+<%if (theme.local_search.enable) {%><%- partial('partials/search')%><%}%>
+<button class="menu-trigger"></button>
+<%- partial('partials/menu')%>
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+<script src="<%= theme.base_file.js%>jquery.easing.min.js"></script>
+<script src="<%= theme.base_file.js%>jquery.waypoints.min.js"></script>
+<script src="<%= theme.base_file.js%>jquery.stellar.min.js"></script>
+<script src="<%= theme.base_file.js%>main.js"></script>
+<% if (theme.local_search.enable) {%><script src="<%= theme.base_file.js%>local.search.js"></script><%}%>
+<%if (theme.comment.enable) {%><%- partial('third-party/comment')%><%}%>
+<%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%></body>
+</html>

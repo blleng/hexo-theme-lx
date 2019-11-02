@@ -1,0 +1,28 @@
+<div class="lx-navigation">
+	<div class="lx-cover prev lx-cover-sm" style="background-image: url(<%= theme.nex_post%>)">
+		<div class="overlay"></div>
+		<a class="copy" href="<%if (page.prev) {%><%= url_for(page.prev.path)%><%} else {%>#<%}%>">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3><%if (page.prev) {%><%- page.prev.title%><%} else {%>没有更新的文章<%}%></h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+        <div class="lx-cover next lx-cover-sm" style="background-image: url(<%= theme.pre_post%>)">
+		<div class="overlay"></div>
+		<a class="copy" href="<%if (page.next) {%><%= url_for(page.next.path)%><%} else{%>#<%}%>">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3><%if (page.next) {%><%- page.next.title%><%} else{%>没有更早的文章<%}%></h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>

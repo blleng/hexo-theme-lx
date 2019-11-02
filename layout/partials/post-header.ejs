@@ -1,0 +1,10 @@
+<div id="lx-aside" style="background-image: url(<%= theme.postcover%>)" data-stellar-background-ratio="0.5">
+  <div class="overlay">
+  <div class="page-title">
+    <div class="avatar"><a href="/"><img src="<%= theme.avatar%>"></a></div>
+    <span><%-page.date.format("YYYY-MM-DD")%></span>
+    <h2><%- page.title%></h2>
+    <% if (page.tags && page.tags.length){ %><div class="tags"><i class="fa fa-tag"></i><%- list_tags(page.tags, { show_count: false, style: 'none', separator: ' <i class="fa fa-tag"></i>' }) %></div><%}%>
+    <%if (theme.social.enable) { %><%- partial('sociallinks')%><%}%></div>
+</div>
+</div>

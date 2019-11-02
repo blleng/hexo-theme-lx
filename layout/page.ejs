@@ -1,0 +1,16 @@
+<div  class="single">
+<div id="page">
+<%-partial('partials/post-header')%>
+<div id="lx-main-content">
+  <div class="lx-post"> 
+    <div class="lx-entry padding">
+      <div>
+        <%- page.content%>
+      </div>
+    </div>		
+  </div>
+</div>
+</div>
+<%if (theme.comment.enable) {%><div class="comment"><div id="comments"></div></div><%}%>
+<%-partial('partials/footer')%>
+</div>

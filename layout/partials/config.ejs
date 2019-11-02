@@ -1,0 +1,15 @@
+<script id="hexo-configurations">
+  var CONFIG = {
+    root: '<%- config.root%>',
+    theme: '<%- config.theme%>',
+    version: '<%- theme.version%>',
+    localsearch:{
+      "enable": <%- theme.local_search.enable%>,
+      "trigger": "<%- theme.local_search.trigger%>",
+      "top_n_per_article": <%- theme.local_search.top_n_per_article%>,
+      "unescape": <%- theme.local_search.unescape%>,
+      "preload": <%- theme.local_search.preload%>
+      },
+    path: '<%if (theme.local_search.enable) {%><%- config.search.path%><%} else {%>-<%}%>'
+  };
+</script>

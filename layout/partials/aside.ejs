@@ -1,0 +1,11 @@
+<div id="lx-aside" style="background-image: url(<%= theme.cover%>)">
+  <div class="overlay">
+  <div class="featured">
+    <div class="avatar"><a href="/"><img src="<%= theme.avatar%>"></a></div>
+    <span><%- config.author%></span>
+    <h2><%- config.title%></h2>
+    <span>——<%- config.subtitle%></span>
+    <%if (theme.social.enable) { %><%- partial('sociallinks')%><%}%>
+  </div>
+  </div>
+</div>

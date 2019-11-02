@@ -1,0 +1,23 @@
+.menu-trigger{
+  position: fixed;
+  bottom: 60px;
+  right: 25px;
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: $menu-button;
+  cursor: pointer;
+  -webkit-tap-highlight-color: $menu-button-tap;
+  z-index: 5;
+}
+.menu-trigger:hover{
+  opacity: 0.8;
+  -webkit-opacity: 0.8;
+}
+
+.menu-trigger:before{
+  font-family: 'FontAwesome';
+  content: '\f053';
+  font-size: 24px;
+}

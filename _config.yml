@@ -1,0 +1,107 @@
+### Hexo-Theme-Lx
+###作者:blleng(https://github.com/blleng)
+###版本:v0.0.0
+version: 0.0.0
+
+# favicon
+favicon: /favicon.ico
+
+# 作者头像
+avatar: /images/person_1.jpg
+
+# 侧边栏个人信息
+personal_des: Hello, World!
+
+# 首页封面
+cover: /images/cover.jpg
+
+# 文章封面
+postcover: /images/page-cover.jpg
+
+# 文末图片
+pre_post: /images/footer_2.jpg #上一篇文章
+nex_post: /images/footer_1.jpg #下一篇文章
+
+# 侧边栏主题
+##纯色可选：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
+##渐变色可选：endless-river,crazy-orange,between-clouds,amethyst,steel-man,d2f(dance to forget),park-life,moonlit,fb-messenger,flickr
+## 不填则为默认初始状态(灰黑色black-grey)
+menu_theme: endless-river
+
+# 页面
+menu:
+  enable: true
+  links:
+    留言: /guestbook
+    关于: /about
+
+# 友链
+friends:
+  enable: true
+  links:
+    Theme-Lx: https://lx.blleng.cn
+
+
+# 社交媒体链接
+social:
+  enable: false
+  links:
+    #GitHub: https://github.com/yourname
+    #Email: mailto:your@email.address
+    #Weibo: https://weibo.com/yourname
+    #Google: https://plus.google.com/yourname
+    #Twitter: https://twitter.com/yourname
+    #FB_Page: https://www.facebook.com/yourname
+    #VK_Group: https://vk.com/yourname
+    #StackOverflow: https://stackoverflow.com/yourname
+    #YouTube: https://youtube.com/yourname
+    #Instagram: https://instagram.com/yourname
+    #Skype: skype:yourname?call|chat
+
+# 本地搜索#使用请先安装插件'npm install hexo-generator-searchdb -s'
+local_search:
+  enable: false
+  trigger: auto #'auto'自动显示搜索结果 or 'manual'手动显示搜索结果 
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+  placeholder: Search...
+
+# footer
+footer:
+
+# 统计
+google_analytics: #谷歌统计ID
+baidu_analytics: #百度统计ID
+
+# 评论系统使用valine,appid和appkey在leancloud创建应用后获取。
+comment:
+  enable: false
+  appid:
+  appkey:
+  notify: false
+  verify: false
+  placeholder: 此处留言
+  avatar: identicon
+  guest_info: nick,mail,link
+  pageSize: 10
+  language: zh-cn
+  cdn: //unpkg.com/valine
+
+# Mathjax公示显示
+mathjax:
+  enable: true
+  cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG #这里默认选用SVG格式显示公式
+
+# FontAwsome-CDN
+font_awsome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+
+##############################
+####除非您清楚后果,否则请勿修改以下内容
+##############################
+
+#Js、Css与字体文件目录
+base_file:
+  js: /js/
+  css: /css/
+  font: https://fonts.googleapis.com/css?family=Montserrat:300|Noto+Serif+SC&display=swap

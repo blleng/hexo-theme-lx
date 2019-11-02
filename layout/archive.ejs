@@ -1,0 +1,14 @@
+<div id="page">
+<%-partial('partials/aside')%>
+<div id="lx-main-content">
+  <div class="lx-post">
+  <h2 class="archive">归档</h2>
+    <% page.posts.each(function (post) { %><div class="lx-entry padding"><div>
+    <span class="lx-post-detail"><%= date(post.date, "YYYY-MM-DD") %></span>
+    <h2><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+    <p><% if (post.tags && post.tags.length){ %><i class="fa fa-tag"></i><%- list_tags(post.tags, { show_count: false, style: 'none', separator: ' <i class="fa fa-tag"></i>' }) %><%}%></p></div></div><% }) %>
+<%-partial('partials/pagination')%>
+<%-partial('partials/footer')%>
+  </div>
+</div>
+</div>

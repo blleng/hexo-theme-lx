@@ -1,0 +1,369 @@
+
+/*----------------*/
+/* style for menu */
+/*----------------*/
+
+@import "button";
+
+:root{
+  --skin: $black-g
+  --skin-hover: $black-t-2
+  --skin-color: $white-t-9
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu-container{
+  font-family: $font;
+  overflow: auto;
+  display: block;
+  top: 120px;
+}
+
+.position-right{
+  right: -270px;
+}
+
+.position-right.open{
+  right: 0;
+}
+
+.menu-container,
+.menu-head,
+.menu-right,
+.menu-right.open {
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+}
+
+.menu-container,
+.menu-head {
+  background: var(--skin);
+  position: fixed;
+  width: 270px;  
+}
+.menu-head .layer{
+  background: $black-t-2;
+  display: block;
+  padding: 15px;
+}
+.menu-head{
+  height: 120px;
+  box-sizing: border-box; 
+  margin: 0px;
+  top: 0;
+}
+.menu-items {
+  list-style: none;
+  font-size: 14px;
+}
+.menu .dropdown-heading,
+.menu .menu-items li a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: var(--skin-color);
+  border-bottom: 1px dotted $white-t-05;
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+}
+.menu-items li i{
+  font-size: 16px;
+  margin-right: 10px;
+}
+.dropdown-heading:hover,
+.menu-items li a:hover {
+  background: var(--skin-hover);
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    -webkit-opacity: 0;
+  }
+  to{
+    opacity: 1;
+    -webkit-opacity: 1;
+  }
+}
+
+/* Dropdowns */
+.has-sub ul{
+  list-style: none;
+  overflow: hidden;
+  display: none;
+  background: $white-blue;
+}
+.menu .has-sub ul li a{
+  display: block;
+  padding: 12px 33px;
+  border-bottom: 0;
+  font-size: 13px;
+  color: $black-g;
+  transition: .1s;
+  -webkit-transition: .1s;
+  border-bottom: 1px dotted $grey-g;
+}
+ .has-sub ul li a:hover{
+  background: $grey-w;
+  transition: .1s;
+ -webkit-transition: .1s;
+}
+.has-sub span{
+  display: block;
+  box-sizing: border-box;
+}
+.has-sub i.fa-chevron-down{
+  float: right;
+  margin-right: 10px;  
+  transition: 0.360s;
+  font-size: 16px;
+}
+.has-sub .fa-chevron-down.fa-down{
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  transition: 0.360s;
+  -webkit-transition: 0.360s;
+  -moz-transition: 0.360s;
+}
+.col{
+  display: table;   
+}
+.row{
+  display: table-cell;  
+}
+.for-name {
+  max-width: 140px;
+  padding: 10px;
+  color: var(--skin-color);
+}
+.for-pic {
+  max-width: 70px;
+}
+.profile-pic img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid $white-t-01;
+  object-fit: cover;
+}
+.menu-head p {
+  top: -35px;
+  font-size: 13pt;
+  font-weight: 400;
+}
+.tagline,
+.menu-head p {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tagline{
+  font-size: 11px;
+  bottom: 32px;
+  display: block;
+}
+.dim-overlay{
+   display: none;
+}
+
+.dim-overlay:before {
+	content: "";
+	background-color:  $black-t-5;
+	height: 100vh;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 15;
+}
+
+/*skins*/
+.red {
+  ackground: $red;
+  --skin-hover: $black;
+  --skin-color: $white;
+}
+
+/* Clover Green*/
+.green {
+  background: $green;
+  --skin-hover: $black-t-1;
+  --skin-color: $white-t-9;
+}
+
+/* Dodger Blue*/
+.blue {
+  background: $blue;
+  --skin-hover: $black;
+  --skin-color: $white;
+}
+
+/* Bright Neon Pink*/
+.bnp {
+  background: $bnp;
+  --skin-hover: $black-t-1;
+  --skin-color: $white-t-9;
+}
+
+/* Pumpkin Orange */
+.orange {
+  background: $orange;
+}
+
+/* Black*/
+.black {
+  background: $black;
+}
+/* Neon Pink*/
+.pink {
+  background: $pink;
+}
+
+/* Golden Brown */
+.gol-b {
+  background: $gol-b;
+}
+
+/* Greenish Blue */
+.greenish {
+  background: $greenish;
+}
+
+/* Wood */
+.wood {
+  background: $wood;
+}
+
+
+/* gradients themes colors */
+
+/* Endless River */
+.endless-river {
+  --theme-color: #43cea2;
+  background: #43cea2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#185a9d,#43cea2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#185a9d,#43cea2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#185a9d,#43cea2);
+}
+
+/* Crazy Orange */
+.crazy-orange {
+  --theme-color: #d38312;
+  background: #d38312;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#a83279,#d38312);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#a83279,#d38312);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#a83279,#d38312);
+}
+
+/* Between the Clouds */
+.between-clouds {
+  --theme-color: #73c8a9;
+  background: #73c8a9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#373b44, #73c8a9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#373b44,#73c8a9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#373b44,#73c8a9);
+}
+
+/* Amethyst */
+.amethyst {
+  --theme-color: #9d50bb;
+  background: #9d50bb;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#6e48aa,#9d50bb);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#6e48aa,#9d50bb);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#6e48aa,#9d50bb);
+}
+
+/* Man of the Steel */
+.steel-man {
+  --theme-color: #780206;
+  background: #780206;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#061161,#780206);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#061161,#780206);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#061161,#780206);
+}
+
+/* Dance to Forget */
+.d2f {
+  --theme-color: #ff4e50;
+  background: #ff4e50;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#f9d423,#ff4e50);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#f9d423,#ff4e50);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#f9d423,#ff4e50);
+}
+
+/* Park Life */
+.park-life {
+  --theme-color: #add100;
+  background: #add100;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#7b920a,#add100);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#7b920a,#add100);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#7b920a,#add100);
+}
+
+/* Moonlit Asteroid */
+.moonlit {
+  --theme-color: #0f2027;
+  background: #0f2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#2c5364,#203a43, #0f2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#2c5364,#203a43, #0f2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#2c5364,#203a43, #0f2027);
+}
+
+/* Facebook Messenger */
+.fb-messenger {
+  --theme-color: #00c6ff;
+  background: #00c6ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#0072ff,#00c6ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#0072ff,#00c6ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#0072ff,#00c6ff);
+}
+
+/* Flickr */
+.flickr {
+  --theme-color: $fli-2;
+  background: $fli-2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#33001b,#ff0084);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#33001b,#ff0084);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --theme-color: linear-gradient(to right,#33001b,#ff0084);
+}

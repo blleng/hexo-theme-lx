@@ -1,0 +1,9 @@
+<% if (page.posts.length > 0) { %><% page.posts.sort('date', -1).limit().each(post => { %>
+  <div class="lx-entry padding">
+    <div>
+      <h2><a href="<%- url_for('/' + post.path) %>"><%- post.title%></a></h2>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> <%- post.date.format("YYYY-MM-DD")%><%if (post.categories && post.categories.length){%> | <i class="fa fa-folder-o"></i> <%- list_categories(post.categories, {show_count: false, style: 'none', separator: ','})%><%}%></span>
+      <p><%- post.excerpt%></p>
+    </div>
+  </div><% }); %>
+ <% } %>

@@ -1,0 +1,20 @@
+<%if (page.comment) {%><script src="<%= theme.comment.cdn%>"></script>
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = '<%- theme.comment.guest_info%>';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: <%- theme.comment.verify%>,
+    notify: <%- theme.comment.notify%>,
+    appId: '<%- theme.comment.appid%>',
+    appKey: '<%- theme.comment.appkey%>',
+    placeholder: '<%- theme.comment.placeholder%>',
+    avatar: '<%- theme.comment.avatar%>',
+    meta: guest,
+    pageSize: '<%- theme.comment.pageSize%>' || 10,
+    lang: '<%- theme.comment.language%>' || 'zh-cn'
+  });
+</script><%}%>
