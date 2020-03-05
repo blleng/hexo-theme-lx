@@ -1,7 +1,7 @@
 ### Hexo-Theme-Lx
 ###作者:blleng(https://github.com/blleng)
-###版本:v0.0.0
-version: 0.0.0
+###版本:v0.0.1
+version: 0.0.1
 
 # favicon
 favicon: /favicon.ico
@@ -104,4 +104,4 @@ font_awsome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 base_file:
   js: /js/
   css: /css/
-  font: https://fonts.googleapis.com/css?family=Montserrat:300|Noto+Serif+SC&display=swap
+  font: https://fonts.googleapis.com/css?family=Fira+Code|Noto+Serif+SC&display=swap

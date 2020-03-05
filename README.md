@@ -17,6 +17,12 @@ Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
 ![demo](demo/demo.jpg)
 
+## 最近更新
+
+### V0.0.1
+
+- 应诸位的要求，修改了代码块所用字体（目前使用`Fira Code`字体）
+
 ## 使用：
 
 在博客根目录:
