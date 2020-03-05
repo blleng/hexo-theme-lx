@@ -17,7 +17,9 @@ Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
 ## 最近更新
 
-### V0.0.2
+### V0.1.1
+
+2020-03-05
 
 - 应诸位的要求，修改了代码块所用字体（目前使用`Fira Code`字体）
 
