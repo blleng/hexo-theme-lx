@@ -3,8 +3,6 @@
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->尚在开发中。归档、分类 、标签页面还有待完善。
->...
 >欢迎Fork，欢迎Clone，不拒绝Star
 
 Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
@@ -19,9 +17,11 @@ Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
 ## 最近更新
 
-### V0.0.1
+### V0.0.2
 
 - 应诸位的要求，修改了代码块所用字体（目前使用`Fira Code`字体）
+
+- 完善了分类和标签页面
 
 ## 使用：
 

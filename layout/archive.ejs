@@ -1,8 +1,12 @@
+<% var headTitle = '';
+if (is_archive()) headTitle = __('所有文章');
+if (is_tag()) headTitle = page.tag + __('标签下的文章');
+if (is_category()) headTitle = page.category + __('分类下的文章');%>
 <div id="page">
 <%-partial('partials/aside')%>
 <div id="lx-main-content">
   <div class="lx-post">
-  <h2 class="archive">归档</h2>
+  <h2 class="archive"><%=headTitle%></h2>
     <% page.posts.each(function (post) { %><div class="lx-entry padding"><div>
     <span class="lx-post-detail"><%= date(post.date, "YYYY-MM-DD") %></span>
     <h2><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
