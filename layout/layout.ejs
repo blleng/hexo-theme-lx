@@ -19,7 +19,7 @@ if (pageTitle == '') {
   <%- partial('partials/config')%>
   <link rel="shortcut icon" href="<%- theme.favicon%>">
   <link rel="stylesheet" href="<%= theme.base_file.css%>main.css">
-  <script src="<%= theme.base_file.js%>jquery.min.js"></script>
+  <script src="<%= theme.base_file.jquery_cdn%>"></script>
   <script src="<%= theme.base_file.js%>jquery.jside.menu.js"></script>
 	<script>
 	$(document).ready(function(){
@@ -43,9 +43,31 @@ if (pageTitle == '') {
   <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
 </div>
 <script src="<%= theme.base_file.js%>jquery.easing.min.js"></script>
-<script src="<%= theme.base_file.js%>jquery.waypoints.min.js"></script>
-<script src="<%= theme.base_file.js%>jquery.stellar.min.js"></script>
-<script src="<%= theme.base_file.js%>main.js"></script>
+<script>
+(function () {
+	"use strict";
+	var goToTop = function() {
+		$(".js-gotop").on("click", function(event){
+			event.preventDefault();
+			$("html, body").animate({
+				scrollTop: $("html").offset().top
+			}, 500, "easeInOutExpo");
+			return false;
+		});
+		$(window).scroll(function(){
+			var $win = $(window);
+			if ($win.scrollTop() > 200) {
+				$(".js-top").addClass("active");
+			} else {
+				$(".js-top").removeClass("active");
+			}
+		});
+	};
+	$(function(){
+		goToTop();
+	});
+}());
+</script>
 <% if (theme.local_search.enable) {%><script src="<%= theme.base_file.js%>local.search.js"></script><%}%>
 <%if (theme.comment.enable) {%><%- partial('third-party/comment')%><%}%>
 <%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%></body>

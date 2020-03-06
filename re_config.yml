@@ -103,5 +103,6 @@ font_awsome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 #Js、Css与字体文件目录
 base_file:
   js: /js/
+  jquery_cdn: //cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js
   css: /css/
   font: https://fonts.googleapis.com/css?family=Fira+Code|Noto+Serif+SC&display=swap
