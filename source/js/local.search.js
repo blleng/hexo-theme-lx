@@ -1,6 +1,6 @@
 /* global CONFIG */
 
-$(document).on('DOMContentLoaded', function() {
+$(document).on("DOMContentLoaded", function() {
   // Popup Window
   var isfetched = false;
   var datas;
@@ -41,8 +41,8 @@ $(document).on('DOMContentLoaded', function() {
     }
     while ((position = text.indexOf(word, startPosition)) > -1) {
       index.push({
-        position: position,
-        word    : word
+        position,
+        word
       });
       startPosition = position + wordLen;
     }
@@ -61,8 +61,8 @@ $(document).on('DOMContentLoaded', function() {
         searchTextCountInSlice++;
       }
       hits.push({
-        position: position,
-        length  : word.length
+        position,
+        length : word.length
       });
       var wordEnd = position + word.length;
 
@@ -80,10 +80,10 @@ $(document).on('DOMContentLoaded', function() {
       }
     }
     return {
-      hits           : hits,
-      start          : start,
-      end            : end,
-      searchTextCount: searchTextCountInSlice
+      hits,
+      start,
+      end,
+      searchTextCount : searchTextCountInSlice
     };
   }
 
@@ -202,10 +202,10 @@ $(document).on('DOMContentLoaded', function() {
 
           resultItem += "</li>";
           resultItems.push({
-            item           : resultItem,
-            searchTextCount: searchTextCount,
-            hitCount       : hitCount,
-            id             : resultItems.length
+            item : resultItem,
+            searchTextCount,
+            hitCount,
+            id : resultItems.length
           });
         }
       });
@@ -235,14 +235,14 @@ $(document).on('DOMContentLoaded', function() {
     $.ajax({
       url     : path,
       dataType: isXml ? "xml" : "json",
-      success : function(res) {
+      success (res) {
         // Get the contents from search data
         isfetched = true;
         datas = isXml ? $("entry", res).map(function() {
           return {
-            title  : $("title", this).text(),
-            content: $("content", this).text(),
-            url    : $("url", this).text()
+            title : $("title", this).text(),
+            content : $("content", this).text(),
+            url : $("url", this).text()
           };
         }).get() : res;
 
