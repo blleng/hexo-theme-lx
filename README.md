@@ -18,19 +18,17 @@ Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
 ## 最近更新
 
+### V0.2.2
+
+2020-03-07
+
+- 给予了用户在字体选用方面的更多自由
+
 ### V0.2.1
 
 2020-03-06
 
 - 改善了代码质量（修改了部分冗余代码，改善了js代码质量）
-
-### V0.1.1
-
-2020-03-05
-
-- 应诸位的要求，修改了代码块所用字体（目前使用`Fira Code`字体）
-
-- 完善了分类和标签页面
 
 ## 使用：
 
@@ -160,6 +158,20 @@ tags: ...
 comment: ...
 mathjax: true //启用Mathjax
 ---
+```
+
+### 字体设置
+
+```yml
+font:
+  enable: true
+  host: //fonts.googleapis.com
+  codes: ##代码字体
+    enable: true
+    family: Fira Code
+  else: ##文字字体
+    enable: false
+    family: 
 ```
 
 ## 文章写作样式

@@ -1,7 +1,7 @@
 ### 欢迎使用Hexo-Theme-Lx
 ###作者:blleng(https://github.com/blleng)
-###版本:v0.2.1
-version: 0.2.1
+###版本:v0.2.2
+version: 0.2.2
 
 # favicon
 favicon: /favicon.ico
@@ -96,13 +96,19 @@ mathjax:
 # FontAwsome-CDN
 font_awsome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
-##############################
-####除非您清楚后果,否则请勿修改以下内容
-##############################
+# Font-字体设置
+font:
+  enable: true
+  host: //fonts.googleapis.com
+  codes: ##代码字体
+    enable: true
+    family: Fira Code
+  else: ##文字字体
+    enable: false
+    family: Noto Serif SC
 
-#Js、Css与字体文件目录
+#Js、Css文件目录
 base_file:
   js: /js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js
   css: /css/
-  font: https://fonts.googleapis.com/css?family=Fira+Code|Noto+Serif+SC&display=swap
