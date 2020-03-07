@@ -1,6 +1,5 @@
 # Hexo-Theme-Lx
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/608542acda1642099f694d97a59403e7)](https://app.codacy.com/manual/blleng/hexo-theme-lx?utm_source=github.com&utm_medium=referral&utm_content=blleng/hexo-theme-lx&utm_campaign=Badge_Grade_Dashboard)
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
