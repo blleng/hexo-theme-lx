@@ -2,7 +2,6 @@
 hexo.extend.helper.register("lx_font", () => {
   var config = hexo.theme.config.font;
   if (!config || !config.enable) return "";
-  else(
   var fontDisplay = "&display=swap";
   var fontSubset = "&subset=latin,latin-ext";
   var fontStyles = ":300,300italic,400,400italic,700,700italic";
@@ -16,5 +15,5 @@ hexo.extend.helper.register("lx_font", () => {
   fontFamilies = fontFamilies.filter(item => item !== "");
   fontFamilies = [...new Set(fontFamilies)];
   fontFamilies = fontFamilies.join("|");
-  return fontFamilies ? `<link rel="stylesheet" href="${fontHost}/css?family=${fontFamilies.concat(fontDisplay, fontSubset)}">` : "";)
+  return fontFamilies ? `<link rel="stylesheet" href="${fontHost}/css?family=${fontFamilies.concat(fontDisplay, fontSubset)}">` : "";
 });
