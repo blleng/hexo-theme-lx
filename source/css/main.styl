@@ -49,6 +49,9 @@ h2.pagehead{
   padding: 20px 0px 0px 20px;
   color: $black;
 }
+h2.title a{
+  color: $black-g;
+}
 ::-webkit-selection {
   color: $selection-color;
   background: $selection-bg;
@@ -329,7 +332,12 @@ footer {
   background: $white-l;
   clear: both;
   font-size: 12px;
+  padding: 20px 60px;
+}
+@media screen and (max-width: 768px){
+footer {
   padding: 20px 30px;
+}
 }
 .single footer > div {
   max-width: 960px;
