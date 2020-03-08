@@ -3,6 +3,7 @@ if (is_archive()) headTitle = __('所有文章');
 if (is_tag()) headTitle = page.tag + __('标签下的文章');
 if (is_category()) headTitle = page.category + __('分类下的文章');%>
 <div id="page">
+<%if (theme.local_search.enable) {%><%- partial('partials/search')%><%}%>
 <%-partial('partials/aside')%>
 <div id="lx-main-content">
   <div class="lx-post">
