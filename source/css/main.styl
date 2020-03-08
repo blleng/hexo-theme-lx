@@ -120,20 +120,26 @@ h2.title a{
   height: 450px;
   width: 100%;
 }
-#lx-aside a {
-  color: rgba(255, 255, 255, 0.5);
-}
-#lx-aside a:hover {
-  color: $white;
+@media screen and (max-width: 768px) {
+  .single #lx-aside{
+    height: 400px;
+  }
 }
 @media screen and (max-width: 768px) {
   #lx-aside {
     width: 100%;
     position: relative;
     z-index: 4;
-    height: 450px;
+    height: 400px;
   }
 }
+#lx-aside a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#lx-aside a:hover {
+  color: $white;
+}
+
 #lx-aside .overlay {
   position: absolute;
   top: 0;
@@ -156,6 +162,11 @@ h2.title a{
   margin: auto;
   margin-top: 25%;
   width: 85%;
+}
+@media screen and (max-width: 768px){
+  #lx-aside .featured{
+    margin-top: 10%;
+  }
 }
 .single #lx-aside .page-title {
   margin: 0 auto;
