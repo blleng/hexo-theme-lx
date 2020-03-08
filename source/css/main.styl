@@ -210,16 +210,18 @@ h2.title a{
 .popup-trigger{
   position: absolute;
   top: 40px;
-  right: 30px;
-  width: 25px;
-  height: 25px;
-  line-height: 24px;
-  padding: 0;
-  color: $search-button;
-  background: radial-gradient($search-button-side-1, $search-button-side-2);
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: $white;
+  background: $deep-red;
   font-size: 20px;
   border-radius: 50%;
-  z-index: 5;
+  z-index: 20;
+}
+a.popup-trigger:hover{
+  color: $white-h;
 }
 
 .local-search-pop-overlay {
@@ -261,7 +263,7 @@ h2.title a{
   padding: 0;
 }
 .local-search-popup p.search-result {
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed $grey-l;
   padding: 5px 0;
 }
 .local-search-popup a.search-result-title {
@@ -269,7 +271,7 @@ h2.title a{
 }
 .local-search-popup .search-keyword {
   border-bottom: 1px dashed $red-l;
-  color: #f00;
+  color: $red-l;
   font-weight: bold;
 }
 .local-search-popup .local-search-header {
@@ -284,6 +286,9 @@ h2.title a{
   overflow: auto;
   padding: 5px 25px;
   position: relative;
+}
+ul.search-result-list li a {
+  color: $black-s-h;
 }
 .local-search-popup .local-search-input-wrapper {
   display: inline-block;

@@ -1,15 +1,16 @@
 .menu-trigger{
   position: fixed;
+  right: 20px;
   bottom: 60px;
-  right: 25px;
-  -webkit-appearance: none;
   border: 0;
-  outline: 0;
-  background: transparent;
-  color: $black-s;
-  cursor: pointer;
-  -webkit-tap-highlight-color: $black-t-2;
-  z-index: 5;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: $white;
+  border-radius: 50%;
+  background-color: $deep-red;
+  z-index: 4;
 }
 .menu-trigger:hover{
   opacity: 0.8;
@@ -18,6 +19,6 @@
 
 .menu-trigger:before{
   font-family: 'FontAwesome';
-  content: '\f053';
-  font-size: 24px;
+  content: '\f100';
+  font-size: 18px;
 }
