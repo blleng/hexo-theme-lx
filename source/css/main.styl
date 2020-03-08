@@ -210,18 +210,21 @@ h2.title a{
 .popup-trigger{
   position: absolute;
   top: 40px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  line-height: 27px;
+  left: 33%;
   color: $white;
-  background: $deep-red;
   font-size: 20px;
   border-radius: 50%;
   z-index: 5;
 }
-a.popup-trigger:hover{
+.single .popup-trigger {
+  left: 85%;
+}
+@media screen and (max-width: 768px){
+  .popup-trigger{
+  left: 85%;
+  }
+}
+a.popup-trigger:hover {
   color: $white-h;
 }
 
