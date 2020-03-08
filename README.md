@@ -42,19 +42,7 @@ $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```yml
 theme: lx
 ```
-
-然后复制一份`themes/lx/re_config.yml`（这个文件是为了方便主题版本升级时不受`_config.yml`的影响，也方便备份。），命名为`_config.yml`，放在`themes/lx`目录下，主题的配置将在该文件中进行。
-
-更新到最新版本：
-
-在`themes/lx`文件夹
-
-```bash
-$ git pull
-```
-
->更新完毕后请注意根据新的`re_config.yml`修改你创建的`_config.yml`。
-
+主题的配置将在`themes/lx/_config.yml`中进行。
 
 ## 功能配置
 
