@@ -110,5 +110,5 @@ font:
 #Js、Css文件目录
 base_file:
   js: /js/
-  jquery_cdn: //cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js
+  jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
   css: /css/

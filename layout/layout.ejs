@@ -36,7 +36,11 @@ if (pageTitle == '') {
 </head>
 <body>
 <%- body %>
-<button class="menu-trigger"></button>
+<button class="hamburger hamburger--arrow-r" type="button">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+</button> 
 <%- partial('partials/menu')%>
 <div class="gototop js-top">
   <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
