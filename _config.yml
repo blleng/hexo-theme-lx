@@ -52,21 +52,21 @@ friends:
 social:
   enable: false
   links:
-    GitHub:
-      icon: github
-      link: https://github.com/yourname
-    Email:
-      icon: envelope
-      link: mailto:your@email.address
-    Weibo:
-      icon: weibo
-      link: https://weibo.com/yourname
-    Twitter:
-      icon: twitter
-      link: https://twitter.com/yourname
-    Instagram:
-      icon: instagram
-      link: https://instagram.com/yourname
+  #  GitHub:
+  #    icon: github
+  #    link: https://github.com/yourname
+  #  Email:
+  #    icon: envelope
+  #    link: mailto:your@email.address
+  #  Weibo:
+  #    icon: weibo
+  #    link: https://weibo.com/yourname
+  #  Twitter:
+  #    icon: twitter
+  #    link: https://twitter.com/yourname
+  #  Instagram:
+  #    icon: instagram
+  #    link: https://instagram.com/yourname
 
 # 本地搜索
 #使用请先安装插件'npm install hexo-generator-searchdb -s'
