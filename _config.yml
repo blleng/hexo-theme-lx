@@ -43,25 +43,36 @@ friends:
 
 
 # 社交媒体链接
+#
+# 请按照以下格式填写（可自行添加）
+# links:
+# name(链接名称):
+#   icon: fontawesome图标名称
+#   link: 链接地址
 social:
   enable: false
   links:
-    #GitHub: https://github.com/yourname
-    #Email: mailto:your@email.address
-    #Weibo: https://weibo.com/yourname
-    #Google: https://plus.google.com/yourname
-    #Twitter: https://twitter.com/yourname
-    #FB_Page: https://www.facebook.com/yourname
-    #VK_Group: https://vk.com/yourname
-    #StackOverflow: https://stackoverflow.com/yourname
-    #YouTube: https://youtube.com/yourname
-    #Instagram: https://instagram.com/yourname
-    #Skype: skype:yourname?call|chat
+    GitHub:
+      icon: github
+      link: https://github.com/yourname
+    Email:
+      icon: envelope
+      link: mailto:your@email.address
+    Weibo:
+      icon: weibo
+      link: https://weibo.com/yourname
+    Twitter:
+      icon: twitter
+      link: https://twitter.com/yourname
+    Instagram:
+      icon: instagram
+      link: https://instagram.com/yourname
 
-# 本地搜索#使用请先安装插件'npm install hexo-generator-searchdb -s'
+# 本地搜索
+#使用请先安装插件'npm install hexo-generator-searchdb -s'
 local_search:
   enable: false
-  trigger: auto #'auto'自动显示搜索结果 or 'manual'手动显示搜索结果 
+  trigger: auto #'auto'自动显示搜索结果 or 'manual'手动(enter键)显示搜索结果 
   top_n_per_article: 1
   unescape: false
   preload: false
