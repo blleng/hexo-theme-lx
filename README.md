@@ -7,6 +7,8 @@
 
 Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
+备用： [https://theme-lx.netlify.com](https://theme-lx.netlify.com)
+
 作者的博客：[https://freezing.cool](https://freezing.cool)
 
 有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
