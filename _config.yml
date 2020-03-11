@@ -102,7 +102,7 @@ comment:
 # Mathjax公示显示
 mathjax:
   enable: true
-  cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG #这里默认选用SVG格式显示公式
+  cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
 
 # FontAwesome-CDN
 font_awesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
