@@ -97,7 +97,7 @@ comment:
   guest_info: nick,mail,link
   pageSize: 10
   language: zh-cn
-  cdn: //unpkg.com/valine
+  cdn: //cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js
 
 # Mathjax公示显示
 mathjax:
