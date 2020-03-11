@@ -104,8 +104,8 @@ mathjax:
   enable: true
   cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG #这里默认选用SVG格式显示公式
 
-# FontAwsome-CDN
-font_awsome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+# FontAwesome-CDN
+font_awesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
 # Font-字体设置
 font:
