@@ -120,7 +120,7 @@ font:
 #Js、Css文件目录
 ##除非你明白自己在做什么，否则请勿修改以下内容##
 base_file:
-  js: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/js/
+  js: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  css: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/css/
+  css: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/source/css/
   ##如果你需要对css进行个性化的修改，请将以上信息改为`/css/`，并将`layout/layout.ejs`中引入的`main.min.css`手动改为`main.css`。
