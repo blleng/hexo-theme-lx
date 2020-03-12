@@ -14,12 +14,12 @@ avatar: /images/person_1.jpg
 
 ###以下是图片设置信息，如有需要请个性化修改
 # 首页封面地址
-cover: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/images/cover.jpg
+cover: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/source/images/cover.jpg
 # 文章封面地址
-postcover: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/images/page-cover.jpg
+postcover: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/source/images/page-cover.jpg
 # 文末图片地址
-pre_post: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/images/footer_2.jpg #上一篇文章
-nex_post: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/images/footer_1.jpg #下一篇文章
+pre_post: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/source/images/footer_2.jpg #上一篇文章
+nex_post: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.3/source/images/footer_1.jpg #下一篇文章
 
 # 侧边栏主题
 ##纯色可选：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
