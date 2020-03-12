@@ -21,7 +21,7 @@ Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/theme/lx)
 
 ## 最近更新
 
-### V0.3.3
+### V0.3.4
 
 2020-03-12
 
