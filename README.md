@@ -123,7 +123,9 @@ mathjax: ...
 social:
   enable: true
   links:
-    #Github: ... #去除开头的'#'注释符，填写链接即可
+    Github:
+      icon: gihub //font-awesmome图标名称
+      link: ... //链接地址
 ```
 
 ### Mathjax
@@ -135,7 +137,7 @@ social:
 ```yml
 mathjax:
   enable: true  ##true:启用 | false:停用
-  cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG  ##为保证输出效果，选择SVG格式输出。
+  cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG
 ```
 
 在文章头填入`mathjax: true`即可在该页面启用评论:

@@ -28,18 +28,18 @@ nex_post: /images/footer_1.jpg #下一篇文章
 ## 不填则为默认初始状态(灰黑色black-grey)
 menu_theme: endless-river
 
-# 页面
+# 侧边栏内容
 menu:
-  enable: true
-  links:
-    留言: /guestbook
-    关于: /about
-
-# 友链
-friends:
-  enable: true
-  links:
-    Theme-Lx: https://lx.blleng.cn
+  category: false #文章分类
+  pages:  #自己创建的页面
+    enable: true
+    links:
+      留言: /guestbook
+      关于: /about
+  friends: #友链
+    enable: true
+    links:
+      Theme-Lx: https://lx.blleng.cn
 
 
 # 社交媒体链接
