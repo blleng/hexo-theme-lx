@@ -36,11 +36,25 @@ Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/theme/lx)
 
 ## 使用：
 
+### 获取最稳定的版本：
+
+https://github.com/blleng/hexo-theme-lx/releases
+
+解压后将文件夹命名为`lx`放在`themes`文件夹中。
+
+>推荐使用稳定版本(请勿使用V0.3.3！！)
+
+### 获取具有最新特性的版本：
+
 在博客根目录:
 
 ```bash
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```
+
+>不推荐这种方式。虽然我尽量保证没有bug后再推送至GitHub仓库，但正在开发中的版本仍可能有bug。
+
+### 启用本主题：
 
 更改站点设置文件`_config.yml`:
 
