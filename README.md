@@ -3,7 +3,7 @@
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->欢迎Fork，欢迎Clone，不拒绝Star
+>如果你喜欢本主题，请点击`star`收藏
 
 Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
 
