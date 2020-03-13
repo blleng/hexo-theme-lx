@@ -14,18 +14,18 @@ avatar: /images/person_1.jpg
 
 ###以下是图片设置信息，如有需要请个性化修改
 # 首页封面地址
-cover: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/images/cover.jpg
+cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/cover.jpg
 # 文章封面地址
-postcover: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/images/page-cover.jpg
+postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/page-cover.jpg
 # 文末图片地址
-pre_post: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/images/footer_2.jpg #上一篇文章
-nex_post: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/images/footer_1.jpg #下一篇文章
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/footer_2.jpg #上一篇文章
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/footer_1.jpg #下一篇文章
 
 # 侧边栏主题
 ##纯色可选：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
 ##渐变色可选：endless-river,crazy-orange,between-clouds,amethyst,steel-man,d2f(dance to forget),park-life,moonlit,fb-messenger,flickr
 ## 不填则为默认初始状态(灰黑色black-grey)
-menu_theme: endless-river
+menu_theme: greenish
 
 # 侧边栏内容
 menu:
@@ -120,7 +120,7 @@ font:
 #Js、Css文件目录
 ##除非你明白自己在做什么，否则请勿修改以下内容##
 base_file:
-  js: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/js/
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  css: //cdn.jsdelivr.net/gh/blleng/hexo-theme-lx@0.3.4/source/css/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/css/
   ##如果你需要对css进行个性化的修改，请将以上信息改为`/css/`，并将`layout/layout.ejs`中引入的`main.min.css`手动改为`main.css`。

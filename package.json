@@ -1,0 +1,24 @@
+{
+  "name": "theme-lx",
+  "version": "0.3.4",
+  "description": "A simle & clear & elegant hexo theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blleng/hexo-theme-lx.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme-lx",
+    "lx"
+  ],
+  "author": "blleng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blleng/hexo-theme-lx/issues"
+  },
+  "homepage": "https://github.com/blleng/hexo-theme-lx#readme"
+}
