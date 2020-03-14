@@ -21,7 +21,7 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
-### V0.3.5
+### V0.3.6
 
 - Developer option
 - English support
@@ -42,7 +42,7 @@ https://github.com/blleng/hexo-theme-lx/releases
 
 Unzip the file and rename it as `lx`. Put it under `themes`
 
->Don't use V0.3.3!!
+>Don't use V0.3.3 and V0.3.5!!
 
 ### Latest version
 

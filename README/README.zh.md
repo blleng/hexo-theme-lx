@@ -21,7 +21,7 @@ Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/theme/lx)
 
 ## 最近更新
 
-### V0.3.5
+### V0.3.6
 
 2020-03-14
 
@@ -43,7 +43,7 @@ https://github.com/blleng/hexo-theme-lx/releases
 
 解压后将文件夹命名为`lx`放在`themes`文件夹中。
 
->推荐使用稳定版本(请勿使用V0.3.3！！)
+>推荐使用稳定版本(请勿使用V0.3.3和V0.3.5！！)
 
 ### 获取具有最新特性的版本：
 
