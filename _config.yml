@@ -33,8 +33,8 @@ menu:
   pages:  #the page created by yourself
     enable: true
     links:
-      留言: /guestbook
-      关于: /about
+      Guestbook: /guestbook
+      About: /about
   friends:
     enable: true
     links:
