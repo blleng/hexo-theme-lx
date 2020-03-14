@@ -1,53 +1,52 @@
-### 欢迎使用Hexo-Theme-Lx
-###作者:blleng(https://github.com/blleng)
-###版本:v0.3.4
-version: 0.3.4
+### Welcome to Hexo-Theme-Lx
+###Author:blleng(https://github.com/blleng)
+###Version:v0.3.5
+version: 0.3.5
 
 # favicon
 favicon: /favicon.ico
 
-# 侧边栏个人信息
+# personal information
 personal_des: Hello, World!
 
-# 作者头像
+# avatar
 avatar: /images/person_1.jpg
 
-###以下是图片设置信息，如有需要请个性化修改
-# 首页封面地址
+###The options below are images information
+# Home cover
 cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/cover.jpg
-# 文章封面地址
+# page cover
 postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/page-cover.jpg
-# 文末图片地址
+# the cover of newer or older post
 pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/footer_2.jpg #上一篇文章
 nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/footer_1.jpg #下一篇文章
 
-# 侧边栏主题
-##纯色可选：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
-##渐变色可选：endless-river,crazy-orange,between-clouds,amethyst,steel-man,d2f(dance to forget),park-life,moonlit,fb-messenger,flickr
-## 不填则为默认初始状态(灰黑色black-grey)
+# The theme of sidebar
+##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
+##gradient color：endless-river,crazy-orange,between-clouds,amethyst,steel-man,d2f(dance to forget),park-life,moonlit,fb-messenger,flickr
+## default: black-grey
 menu_theme: greenish
 
-# 侧边栏内容
+# menu content
 menu:
-  category: false #文章分类
-  pages:  #自己创建的页面
+  category: true #category
+  pages:  #the page created by yourself
     enable: true
     links:
       留言: /guestbook
       关于: /about
-  friends: #友链
+  friends:
     enable: true
     links:
       Theme-Lx: https://lx.blleng.cn
 
 
-# 社交媒体链接
+# social links
 #
-# 请按照以下格式填写（可自行添加）
 # links:
-# name(链接名称):
-#   icon: fontawesome图标名称
-#   link: 链接地址
+# name:
+#   icon: fontawesome icon
+#   link: url
 social:
   enable: false
   links:
@@ -67,11 +66,12 @@ social:
   #    icon: instagram
   #    link: https://instagram.com/yourname
 
-# 本地搜索
-#使用请先安装插件'npm install hexo-generator-searchdb -s'
+# local search
+#install first:
+#'npm install hexo-generator-searchdb -s'
 local_search:
   enable: false
-  trigger: auto #'auto'自动显示搜索结果 or 'manual'手动(enter键)显示搜索结果 
+  trigger: auto #'auto' or 'manual' 
   top_n_per_article: 1
   unescape: false
   preload: false
@@ -80,25 +80,25 @@ local_search:
 # footer
 footer:
 
-# 统计
-google_analytics: #谷歌统计ID
-baidu_analytics: #百度统计ID
+# Analytics
+google_analytics: #Google ID
+baidu_analytics: #Baidu ID
 
-# 评论系统使用valine,appid和appkey在leancloud创建应用后获取。
-comment:
+# Lx use valine as comment system
+# You should create an application in Leancloud to get the appid and appkey
   enable: false
   appid:
   appkey:
   notify: false
   verify: false
-  placeholder: 此处留言
+  placeholder: Say something
   avatar: identicon
   guest_info: nick,mail,link
   pageSize: 10
-  language: zh-cn
+  language: en
   cdn: //cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js
 
-# Mathjax公示显示
+# Mathjax
 mathjax:
   enable: true
   cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
@@ -106,25 +106,26 @@ mathjax:
 # FontAwesome-CDN
 font_awesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
-# Font-字体设置
+# Font
 font:
   enable: true
   host: //fonts.googleapis.com
-  codes: ##代码字体
+  codes: ##the font of codes
     enable: true
     family: Fira Code
-  else: ##文字字体
+  else:
     enable: false
     family: Noto Serif SC
 
-
-##除非你明白自己在做什么，否则请勿修改以下内容##
-
-#Js、Css文件目录
+#############Warning##################
+#####Don't edit options below#########
+##unless you know what you are doing##
+#############Warning##################
+#The dir of Js and Css
 base_file:
   js: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
   css: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/css/
 
-#开发者选项
-develop: false  #若此项为true，则将从本地source文件夹中引入js和css文件，便于开发者调试。
+#developer option
+develop: false  #If true，lx will load js and css from local `source` dir.

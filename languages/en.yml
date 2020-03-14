@@ -1,0 +1,13 @@
+menu:
+  home: Home
+  archive: Archives
+  category: Categories
+  page: Pages
+  friend: Friends
+pagehead:
+  archive: Archives
+  tag: Tag
+  category: Category
+postfooter:
+  no_newer: No newer post
+  no_older: No older post

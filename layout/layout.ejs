@@ -12,7 +12,7 @@ var css = theme.base_file.css;
 if (theme.develop){ js = '/js/'; css = '/css/main.css';}
 else { css += 'main.min.css';}
 %><!DOCTYPE html>
-<html>
+<html <%if(config.language.length){%>lang="<%-config.language.substring(0,2)%>"<%}%>>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

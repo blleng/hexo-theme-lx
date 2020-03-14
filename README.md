@@ -3,119 +3,126 @@
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->如果你喜欢本主题，请点击`star`收藏
+>If you like the theme, please give me star.
 
-Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
+[中文](README/README.zh.md)
 
-备用(以上地址无法访问时请访问此地址):[https://theme-lx.netlify.com](https://theme-lx.netlify.com)
+Demo: [https://lx.blleng.cn](https://lx.blleng.cn)
 
-作者的博客:[https://freezing.cool](https://freezing.cool)
+If the link above is broken: [https://theme-lx.netlify.com](https://theme-lx.netlify.com)
 
-Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/theme/lx)
+Telegram: [https://t.me/themelx](https://t.me/theme/lx)
 
-有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
+Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
-## 示例
+## Demo
 
 ![demo](demo/demo.jpg)
 
-## 最近更新
+## The latest release
+
+### V0.3.5
+
+- Developer option
+- English support
 
 ### V0.3.4
 
 2020-03-12
 
-- 使用jsdelivr进行静态资源加速
-- 在菜单栏中显示分类
+- Use jsdelivr as CDN
+- Category in the menu
 
-### V0.2.3
 
-2020-03-08
+## Usage
 
-- 在细节上做出了很多改进
-
-## 使用：
-
-### 获取最稳定的版本：
+### The stable version
 
 https://github.com/blleng/hexo-theme-lx/releases
 
-解压后将文件夹命名为`lx`放在`themes`文件夹中。
+Unzip the file and rename it as `lx`. Put it under `themes`
 
->推荐使用稳定版本(请勿使用V0.3.3！！)
+>Don't use V0.3.3!!
 
-### 获取具有最新特性的版本：
+### Latest version
 
-在博客根目录:
+At theme blog root dir:
 
 ```bash
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```
 
->不推荐这种方式。虽然我尽量保证没有bug后再推送至GitHub仓库，但正在开发中的版本仍可能有bug。
+>This version is under development and it may have bugs.
 
-### 启用本主题：
+### Apply
 
-更改站点设置文件`_config.yml`:
+Edit `_config.yml`:
 
 ```yml
 theme: lx
 ```
-主题的配置将在`themes/lx/_config.yml`中进行。
 
-## 功能配置
+## Functions
 
->这里的说明并不完整，请参考`themes/lx/_config.yml`中的注释信息。
+>The description here is not complete. You should read the comment in `themes/lx/_config.yml`
 
-### 统计
+### Analytics
 
-引入了百度统计和谷歌统计。
+`lx` use Baidu and Google as analytics.
 
-启用：在`themes/lx/_config.yml`填写:
+Usage:
+
+Edit `themes/lx/_config.yml`:
 
 ```yml
-google_analytics: ... ##谷歌统计ID
-baidu_analytics: ... ##百度统计ID
+google_analytics: ... ##Google analytics ID
+baidu_analytics: ... ##Baidu analytics ID
 ```
 
-### 本地搜索
+### Local search
 
-先下载插件`hexo-generator-searchdb`:
+1. Install the `hexo-generator-searchdb`:
+
+At the blog root dir:
 
 ```bash
 $ npm install hexo-generator-searchdb -s
 ```
 
-在`themes/lx/_config.yml`中配置:
+2. Edit `themes/lx/_config.yml`:
 
 ```yml
 local_search:
   enable: true
 ```
 
-更多配置详见`themes/lx/_config.yml`。
+More features in `themes/lx/_config.yml`
 
-### 评论
+### Comment
 
-评论使用valine，官网：[https://valine.js.org](https://valine.js.org)
+`lx` use valine as comment system.
+The official site: [https://valine.js.org](https://valine.js.org)
 
-启用：在`themes/lx/_config.yml`填写:
+Usage:
+
+Edit `themes/lx/_config.yml`:
 
 ```yml
 comment:
-  enable: true # true:启用 | false:停用
+  enable: true
   appid: ... #leancloud appid
   appkey: ... #leancloud appkey
   notify: false
   verify: false
-  placeholder: 此处留言 #评论框文字
-  avatar: identicon #游客默认头像
-  guest_info: nick,mail,link #评论时需填写的内容（均为选填）
-  pageSize: 10 #一次性展示的评论数
-  language: zh-cn
+  placeholder: Say something #placeholder
+  avatar: identicon #the guest avatar
+  guest_info: nick,mail,link #optional choice
+  pageSize: 10
+  language: en
 ```
 
-在文章头填入`comment: true`即可在该页面启用评论:
+In the page front-matter:
+`comment: true`
 
 ```markdown
 ---
@@ -123,39 +130,41 @@ date: ...
 title: ...
 categories: ...
 tags: ...
-comment: true //启用评论
+comment: true //use comment in this page
 mathjax: ...
 ---
 ```
 
-`appid`和`appkey`在leancloud创建应用后即可获取。
+You should create an application in Leancloud to get `appid` and `appkey`.
 
-### Social Links
+### Social links
 
-社交媒体链接，在`themes/lx/_config.yml`配置:
+Edit the `themes/_config.yml`
 
 ```yml
 social:
   enable: true
   links:
-    Github:
-      icon: gihub //font-awesmome图标名称
-      link: ... //链接地址
+    Github:  //the name of the link
+      icon: gihub //font-awesmome icon
+      link: ... //link
 ```
 
 ### Mathjax
 
-支持数学公式和化学方程式。
+Support Mathematical formulas and chemical equations
 
-启用：在`themes/lx/_config.yml`填写:
+Usage:
+
+Edit`themes/lx/_config.yml`:
 
 ```yml
 mathjax:
-  enable: true  ##true:启用 | false:停用
+  enable: true
   cdn: //cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG
 ```
 
-在文章头填入`mathjax: true`即可在该页面启用评论:
+In the page front-matter: `mathjax: true`
 
 ```markdown
 ---
@@ -164,35 +173,35 @@ title: ...
 categories: ...
 tags: ...
 comment: ...
-mathjax: true //启用Mathjax
+mathjax: true //use Mathjax in this page
 ---
 ```
 
-### 字体设置
+### Font
 
 ```yml
 font:
   enable: true
   host: //fonts.googleapis.com
-  codes: ##代码字体
+  codes: ##the font of codes
     enable: true
     family: Fira Code
-  else: ##文字字体
+  else:
     enable: false
     family: 
 ```
 
-## 文章写作样式
+## Style
 
-### 文章摘要
+### Excerpt
 
-在`<!--more-->`标签之前的内容将作为文章摘要在首页展示。
+the content before `<!--more-->` will be showed at the home page.
 
 ### Note tag
 
-可选用`default`、`info`、`primary`、`success`、`warning`、`danger`。
+options: `default`、`info`、`primary`、`success`、`warning`、`danger`
 
-示例：
+eg：
 
 ```markdown
 {%note default%}
@@ -203,9 +212,9 @@ content
 
 ### Label tag
 
-可选用`default`、`info`、`primary`、`success`、`warning`、`danger`。
+options: `default`、`info`、`primary`、`success`、`warning`、`danger`
 
-示例：
+eg：
 
 ```markdown
 {%label default@content%}
@@ -213,25 +222,17 @@ content
 
 ### Button tag
 
-标准样式：
+buttion：
 
 ```markdown
 {%btn url,content,hand-o-right fa-fw,title%}
 ```
 
-说明：
-
-`url`：指向的链接
-
-`content`：内容
-
-`hand-o-right fa-fw`：图标，可换成其他图标。`fa-fw`：fix width
-
-`title`：title
+options: `url` `content` `hand-o-right fa-fw` `fa-fw` `title`
 
 ### center-quote tag
 
-示例：
+eg：
 
 ```markdown
 {%cq%}
@@ -241,12 +242,9 @@ content
 
 ### video tag
 
-示例：
+eg：
 
 ```markdown
 {% video url %}
 ```
-
-说明：
-
-`url`：视频链接
+options: `url`

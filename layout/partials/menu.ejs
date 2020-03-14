@@ -16,23 +16,23 @@
   </div>
   <nav class="menu-container">
   <ul class="menu-items">
-    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
-    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+    <li><a href="/"><i class="fa fa-home fa-fw"></i><%= __('menu.home')%></a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i><%= __('menu.archive')%></a></li>
     <%if (theme.menu.category) {%><li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-th-list fa-fw"></i>分类</span>
+      <i class="fa fa-th-list fa-fw"></i><%= __('menu.category')%></span>
         <%- list_categories({
                     show_count: false,
                     separator: '</li><li>'
                 }) %>
     </li><%}%>
     <%if (theme.menu.pages.enable) {%><li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-bookmark fa-fw"></i>页面</span>
+      <i class="fa fa-bookmark fa-fw"></i><%= __('menu.page')%></span>
         <ul>
           <% for (var i in theme.menu.pages.links){ %><li><a href="<%= url_for(theme.menu.pages.links[i]) %>"><%= i %></a></li>
         <% } %></ul>
     </li><%}%>
     <%if (theme.menu.friends.enable) {%><li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-link fa-fw"></i>友链</span>
+      <i class="fa fa-link fa-fw"></i><%= __('menu.friend')%></span>
         <ul>
           <% for (var j in theme.menu.friends.links){ %><li> <a href="<%= url_for(theme.menu.friends.links[j]) %>" target="_blank"><%= j %></a></li>
         <% } %></ul>

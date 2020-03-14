@@ -6,7 +6,7 @@
 				<div class="display-tc">
 					<div>
 						<span>Next</span>
-						<h3><%if (page.prev) {%><%- truncate(page.prev.title , {length: 10}) %><%} else {%>没有更新的文章<%}%></h3>
+						<h3><%if (page.prev) {%><%- truncate(page.prev.title , {length: 10}) %><%} else {%><%= __('postfooter.no_newer')%><%}%></h3>
 					</div>
 				</div>
 			</div>
@@ -19,7 +19,7 @@
 				<div class="display-tc">
 					<div>
 						<span>Prev</span>
-						<h3><%if (page.next) {%><%- truncate(page.next.title , {length: 10}) %><%} else{%>没有更早的文章<%}%></h3>
+						<h3><%if (page.next) {%><%- truncate(page.next.title , {length: 10}) %><%} else{%><%= __('postfooter.no_older')%><%}%></h3>
 					</div>
 				</div>
 			</div>

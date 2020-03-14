@@ -1,0 +1,13 @@
+menu:
+  home: 首页
+  archive: 归档
+  category: 分类
+  page: 页面
+  friend: 友链
+pagehead:
+  archive: 文章归档
+  tag: 标签
+  category: 分类
+postfooter:
+  no_newer: 没有更新的文章
+  no_older: 没有更早的文章
