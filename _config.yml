@@ -86,6 +86,7 @@ baidu_analytics: #Baidu ID
 
 # Lx use valine as comment system
 # You should create an application in Leancloud to get the appid and appkey
+comment:
   enable: false
   appid:
   appkey:
