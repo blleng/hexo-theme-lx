@@ -124,9 +124,9 @@ font:
 #############Warning##################
 #The dir of Js and Css
 base_file:
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.7/source/js/
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-b/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.7/source/css/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-b/source/css/
 
 #developer option
 develop: false  #If true，lx will load js and css from local `source` dir.
