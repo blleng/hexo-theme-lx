@@ -10,16 +10,16 @@ favicon: /favicon.ico
 personal_des: Hello, World!
 
 # avatar
-avatar: /images/person_1.jpg
+avatar: /images/avatar.jpeg
 
 ###The options below are images information
 # Home cover
-cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/cover.jpg
+cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/cover.jpeg
 # page cover
-postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/page-cover.jpg
+postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/post_cover.jpeg
 # the cover of newer or older post
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/footer_2.jpg #上一篇文章
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/images/footer_1.jpg #下一篇文章
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer_r.jpeg #上一篇文章
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer_l.jpeg #下一篇文章
 
 # The theme of sidebar
 ##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
