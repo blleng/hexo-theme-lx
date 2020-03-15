@@ -4,6 +4,10 @@ menu:
   category: Categories
   page: Pages
   friend: Friends
+pagetitle:
+  archive: Archives
+  tag: Tag
+  category: Category
 pagehead:
   archive: Archives
   tag: Tag

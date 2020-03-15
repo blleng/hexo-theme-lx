@@ -1,7 +1,7 @@
 <% var pageTitle = page.title || '';
-if (is_archive()) pageTitle = __('Archives');
-if (is_tag()) pageTitle = __('Tag') + '-' + page.tag;
-if (is_category()) pageTitle = __('Category') + '-' + page.category;
+if (is_archive()) pageTitle = __('pagetitle.archive');
+if (is_tag()) pageTitle = __('pagetitle.tag') + '-' + page.tag;
+if (is_category()) pageTitle = __('pagetitle.category') + '-' + page.category;
 if (pageTitle == '') {
     pageTitle = config.title;
 } else {

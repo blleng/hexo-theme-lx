@@ -4,6 +4,10 @@ menu:
   category: 分类
   page: 页面
   friend: 友链
+pagetitle:
+  archive: 归档
+  tag: 标签
+  category: 分类
 pagehead:
   archive: 文章归档
   tag: 标签
