@@ -115,7 +115,7 @@ font:
     enable: true
     family: Fira Code
   else:
-    enable: true
+    enable: false
     family: Noto Serif SC
 
 #############Warning##################
@@ -126,7 +126,7 @@ font:
 base_file:
   js: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-b/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-b/source/css/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-c/source/css/
 
 #developer option
 develop: false  #If true，lx will load js and css from local `source` dir.
