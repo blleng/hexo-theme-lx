@@ -1,8 +1,8 @@
 {
   "name": "theme-lx",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "A simle & clear & elegant hexo theme",
-  "main": "",
+  "main": "source/css/main.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

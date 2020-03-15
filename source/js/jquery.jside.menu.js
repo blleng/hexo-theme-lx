@@ -41,6 +41,7 @@ $(menuTrigger).click(function(){
    $(jSide).toggleClass("open");
    $(dimBackground).show(setting.jSideTransition);
    $(".hamburger").toggleClass("is-active");
+   $(".menu").removeClass("visibility");
 });
    $(window).click(function(e) {
     if ($(e.target).closest(".hamburger").length){

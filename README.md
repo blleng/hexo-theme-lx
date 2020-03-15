@@ -21,18 +21,14 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
+### V0.3.7
+
+- Fix Bugs
+
 ### V0.3.6
 
 - Developer option
 - English support
-
-### V0.3.4
-
-2020-03-12
-
-- Use jsdelivr as CDN
-- Category in the menu
-
 
 ## Usage
 

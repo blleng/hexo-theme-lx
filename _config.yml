@@ -1,7 +1,7 @@
 ### Welcome to Hexo-Theme-Lx
 ###Author:blleng(https://github.com/blleng)
-###Version:v0.3.6
-version: 0.3.6
+###Version:v0.3.7
+version: 0.3.7
 
 # favicon
 favicon: /favicon.ico
@@ -29,7 +29,7 @@ menu_theme: greenish
 
 # menu content
 menu:
-  category: true #category
+  category: false #category
   pages:  #the page created by yourself
     enable: true
     links:
@@ -124,9 +124,9 @@ font:
 #############Warning##################
 #The dir of Js and Css
 base_file:
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/js/
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.7/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.4/source/css/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.7/source/css/
 
 #developer option
 develop: false  #If true，lx will load js and css from local `source` dir.
