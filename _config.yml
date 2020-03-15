@@ -115,7 +115,7 @@ font:
     enable: true
     family: Fira Code
   else:
-    enable: false
+    enable: true
     family: Noto Serif SC
 
 #############Warning##################

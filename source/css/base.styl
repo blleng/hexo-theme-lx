@@ -1,17 +1,4 @@
 /*----------
-Font
-----------*/
-get_font_family(config) {
-  if(hexo-config('font.' + config + '.enable')){
-  $custom-family = hexo-config('font.' + config + '.family');
-  return $custom-family is a 'string' ? $custom-family : null;}
-}
-$font = sans-serif
-$font = get_font_family('else'), sans-serif if get_font_family('else'); 
-$code-font = monospace 
-$code-font = get_font_family('codes'), monospace if get_font_family('codes');
-
-/*----------
 Color
 ----------*/
 
