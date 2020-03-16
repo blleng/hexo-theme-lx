@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: $black-s;
-  background: $white;
+  background: $white-l;
 }
 #page {
   position: relative;
@@ -353,7 +353,6 @@ ul.search-result-list li a {
   color: $tags;
 }
 footer {
-  background: $white-l;
   clear: both;
   font-size: 12px;
   padding: 20px 60px;
@@ -410,14 +409,16 @@ a.category-link {
 .lx-post .lx-entry {
   float: left;
   width: 100%;
-  border: 1px solid $grey-w;
+  boder: none;
   border-radius: 15px;
   margin-bottom: 15px;
   background: $white;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 .single .lx-post .lx-entry {
-  border: none;
-  margin-bottom: 0;
+  border: 1px solid $grey-w;
+  box-shadow: none;
+
 }
 .lx-post .lx-entry > div {
   width: 100%;
@@ -506,7 +507,9 @@ a.category-link {
   width: 100%;
 }
 #pagination .page-number.current {
-  background: $grey-c;
+  background: $green-classic;
+  border: none;
+  border-radius: 50%;
   color: $white;
   cursor: default;
 }
