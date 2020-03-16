@@ -21,8 +21,13 @@ cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/cover.jpeg
 # page cover
 postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/post_cover.jpeg
 # the cover of newer or older post
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer-r.jpeg
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer-l.jpeg
+<<<<<<< HEAD
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer_r.jpeg #上一篇文章
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer_l.jpeg #下一篇文章
+=======
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer-r.jpeg #上一篇文章
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer-l.jpeg #下一篇文章
+>>>>>>> 640ff96cb819ae9bd21c52554110abcd78ecdc81
 
 # The theme of sidebar
 ##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
