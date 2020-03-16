@@ -22,8 +22,8 @@ cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/cover.jpeg
 postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/post_cover.jpeg
 # the cover of newer or older post
 <<<<<<< HEAD
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer_r.jpeg #上一篇文章
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer_l.jpeg #下一篇文章
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer-r.jpeg
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer-l.jpeg
 =======
 pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer-r.jpeg #上一篇文章
 nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer-l.jpeg #下一篇文章
