@@ -5,6 +5,9 @@ menu:
   page: 页面
   friend: 友链
 readmore: 阅读全文
+accessibility:
+  prev_page: 上一页
+  next_page: 下一页
 pagetitle:
   archive: 归档
   tag: 标签

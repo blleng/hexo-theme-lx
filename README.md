@@ -21,14 +21,15 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
+### V0.3.8
+
+- The theme color in Chrome for Android
+- Home page improved
+- Bug fixed
+
 ### V0.3.7
 
 - Fix Bugs
-
-### V0.3.6
-
-- Developer option
-- English support
 
 ## Usage
 

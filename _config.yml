@@ -1,10 +1,13 @@
 ### Welcome to Hexo-Theme-Lx
 ###Author:blleng(https://github.com/blleng)
-###Version:v0.3.7
-version: 0.3.7
+###Version:v0.3.8
+version: 0.3.8
 
 # favicon
 favicon: /favicon.ico
+
+# Theme-color for Android Chrome
+theme_color: "#58b77a"
 
 # personal information
 personal_des: Hello, World!
@@ -14,12 +17,12 @@ avatar: /images/avatar.jpeg
 
 ###The options below are images information
 # Home cover
-cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/cover.jpeg
+cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/cover.jpeg
 # page cover
-postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/post_cover.jpeg
+postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/post_cover.jpeg
 # the cover of newer or older post
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer_r.jpeg #上一篇文章
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-d/source/images/footer_l.jpeg #下一篇文章
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer-r.jpeg
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/images/footer-l.jpeg
 
 # The theme of sidebar
 ##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
@@ -124,9 +127,9 @@ font:
 #############Warning##################
 #The dir of Js and Css
 base_file:
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-b/source/js/
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.7-c/source/css/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.8/source/css/
 
 #developer option
 develop: false  #If true，lx will load js and css from local `source` dir.
