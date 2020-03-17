@@ -15,10 +15,6 @@ Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/theme/lx)
 
 有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
 
-## 示例
-
-![demo](demo/demo.jpg)
-
 ## 最近更新
 
 ### V0.3.8
