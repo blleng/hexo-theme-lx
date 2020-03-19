@@ -15,10 +15,6 @@ Telegram: [https://t.me/themelx](https://t.me/theme/lx)
 
 Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
-## Demo
-
-![demo](demo/demo.jpg)
-
 ## The latest release
 
 ### V0.3.8
