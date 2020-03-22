@@ -4,7 +4,7 @@
 version: 0.3.8
 
 # favicon
-favicon: /favicon.ico
+favicon: favicon.ico
 
 # Theme-color for Android Chrome
 theme_color: "#58b77a"
@@ -13,7 +13,7 @@ theme_color: "#58b77a"
 personal_des: Hello, World!
 
 # avatar
-avatar: /images/avatar.jpeg
+avatar: images/avatar.jpeg
 
 ###The options below are images information
 # Home cover

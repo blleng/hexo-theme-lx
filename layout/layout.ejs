@@ -9,7 +9,7 @@ if (pageTitle == '') {
 }
 var js = theme.base_file.js;
 var css = theme.base_file.css;
-if (theme.develop){ js = '/js/'; css = '/css/main.css';}
+if (theme.develop){ js = config.root + 'js/'; css = config.root + 'css/main.css';}
 else { css += 'main.min.css';}
 %><!DOCTYPE html>
 <html <%if(config.language.length){%>lang="<%-config.language.substring(0,2)%>"<%}%>>
@@ -23,7 +23,7 @@ else { css += 'main.min.css';}
   <meta name="keywords" content="<%- config.keywords%>">
   <meta name="description" content="<%- config.description%>">
   <%- partial('partials/config')%>
-  <link rel="shortcut icon" href="<%- theme.favicon%>">
+  <link rel="shortcut icon" href="<%- url_for(theme.favicon)%>">
   <link rel="stylesheet" href="<%= css%>">
   <%-partial('partials/font')%>
   <script src="<%= theme.base_file.jquery_cdn%>"></script>

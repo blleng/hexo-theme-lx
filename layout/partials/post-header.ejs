@@ -1,7 +1,7 @@
-<div id="lx-aside" style="background-image: url(<%= theme.postcover%>)" data-stellar-background-ratio="0.5">
+<div id="lx-aside" style="background-image: url(<%- url_for(theme.postcover)%>)" data-stellar-background-ratio="0.5">
   <div class="overlay">
   <div class="page-title">
-    <div class="avatar"><a href="<%- config.root%>"><img src="<%= theme.avatar%>"></a></div>
+    <div class="avatar"><a href="<%- config.root%>"><img src="<%- url_for(theme.avatar)%>"></a></div>
     <span><%-page.date.format("YYYY-MM-DD")%></span>
     <h2><%- truncate(page.title , {length: 15}) %></h2>
     <% if (page.tags && page.tags.length){ %><div class="tags"><i class="fa fa-tag"></i><%- list_tags(page.tags, { show_count: false, style: 'none', separator: ' <i class="fa fa-tag"></i>' }) %></div><%}%>
