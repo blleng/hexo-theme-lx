@@ -1,7 +1,7 @@
 <div id="lx-aside" style="background-image: url(<%= theme.cover%>)">
   <div class="overlay">
   <div class="featured">
-    <div class="avatar"><a href="/"><img src="<%= theme.avatar%>"></a></div>
+    <div class="avatar"><a href="<%- config.root%>"><img src="<%= theme.avatar%>"></a></div>
     <span><%- config.author%></span>
     <h1><%- config.title%></h1>
     <%if(config.subtitle.length) {%><span>——<%- config.subtitle%></span><%}%>

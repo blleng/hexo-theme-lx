@@ -4,7 +4,7 @@
       <div class="col">
         <div class="row for-pic">
           <div class="profile-pic">
-            <a href="/"><img src="<%= theme.avatar%>" alt="<%- config.author%>"/></a>
+            <a href="<%- config.root%>"><img src="<%= theme.avatar%>" alt="<%- config.author%>"/></a>
           </div>
         </div>
         <div class="row for-name">
@@ -17,7 +17,7 @@
   <nav class="menu-container">
   <ul class="menu-items">
     <li><a href="/"><i class="fa fa-home fa-fw"></i><%= __('menu.home')%></a></li>
-    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i><%= __('menu.archive')%></a></li>
+    <li><a href="<%- config.root%>archives/"><i class="fa fa-archive fa-fw"></i><%= __('menu.archive')%></a></li>
     <%if (theme.menu.category) {%><li class="has-sub"><span class="dropdown-heading">
       <i class="fa fa-th-list fa-fw"></i><%= __('menu.category')%></span>
         <%- list_categories({

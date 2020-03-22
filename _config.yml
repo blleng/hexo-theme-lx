@@ -36,12 +36,12 @@ menu:
   pages:  #the page created by yourself
     enable: true
     links:
-      Guestbook: /guestbook
-      About: /about
+      Guestbook: guestbook/
+      About: about/
   friends:
     enable: true
     links:
-      Theme-Lx: https://lx.blleng.cn
+      Theme-Lx: https://lx.js.org
 
 
 # social links
