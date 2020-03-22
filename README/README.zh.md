@@ -5,9 +5,9 @@
 
 >如果你喜欢本主题，请点击`star`收藏
 
-Demo:[https://lx.blleng.cn](https://lx.blleng.cn)
+Live Demo:[https://lx.js.org](https://lx.js.org)
 
-备用(以上地址无法访问时请访问此地址):[https://theme-lx.netlify.com](https://theme-lx.netlify.com)
+*该子域名由 [JS.ORG](https://github.com/js-org/js.org) 提供。*
 
 作者的博客:[https://freezing.cool](https://freezing.cool)
 

@@ -7,9 +7,9 @@
 
 [中文](README/README.zh.md)
 
-Demo: [https://lx.blleng.cn](https://lx.blleng.cn)
+Live Demo:[https://lx.js.org](https://lx.js.org)
 
-If the link above is broken: [https://theme-lx.netlify.com](https://theme-lx.netlify.com)
+*THE SUBDOMAIN IS PROVIDED BY [JS.ORG](https://github.com/js-org/js.org)*
 
 Telegram: [https://t.me/themelx](https://t.me/theme/lx)
 
