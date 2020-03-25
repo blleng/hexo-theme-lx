@@ -1,4 +1,4 @@
-<img src="https://cdn.jsdelivr.net/npm/theme-lx@0.3.8-fixed/source/images/avatar.jpeg" alt="logo" width="140" height="140" align="right">
+<img src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" alt="logo" width="140" height="140" align="right">
 
 # Hexo-Theme-Lx
 
