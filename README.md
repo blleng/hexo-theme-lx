@@ -1,3 +1,5 @@
+<img src="https://cdn.jsdelivr.net/npm/theme-lx@0.3.8-fixed/source/images/avatar.jpeg" alt="logo" width="140" height="140" align="right">
+
 # Hexo-Theme-Lx
 
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
