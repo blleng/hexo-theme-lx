@@ -14,7 +14,7 @@ Live Demo:[https://lx.js.org](https://lx.js.org)
 
 作者的博客:[https://freezing.cool](https://freezing.cool)
 
-Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/theme/lx)
+Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/themelx)
 
 有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
 
