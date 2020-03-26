@@ -8,13 +8,13 @@ Hexo-Theme-Lx
 
 >如果你喜欢本主题，请点击`star`收藏
 
-Live Demo:[https://lx.js.org](https://lx.js.org)
+Live Demo: [https://lx.js.org](https://lx.js.org)
 
 *该子域名由 [JS.ORG](https://github.com/js-org/js.org) 提供。*
 
-作者的博客:[https://freezing.cool](https://freezing.cool)
+作者的博客: [https://freezing.cool](https://freezing.cool)
 
-Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/themelx)
+Telegram群组: [https://t.me/themelx](https://t.me/themelx)
 
 有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
 
