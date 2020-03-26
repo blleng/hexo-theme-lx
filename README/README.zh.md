@@ -20,15 +20,10 @@ Telegram频道-hexo-theme-lx:[https://t.me/themelx](https://t.me/themelx)
 
 ## 最近更新
 
-### V0.3.8
+### V0.3.9
 
-- 设定安卓版Chrome的主题色
-- 改善了主页
-- 修改了一些Bug
-
-### V0.3.7
-
-- 修改一些Bug
+- 改善评论框
+- 改善段间距
 
 ## 使用：
 

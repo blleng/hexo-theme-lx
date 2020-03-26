@@ -20,15 +20,10 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
-### V0.3.8
+### V0.3.9
 
-- The theme color in Chrome for Android
-- Home page improved
-- Bug fixed
-
-### V0.3.7
-
-- Fix Bugs
+- Comment area improved
+- Segment spacing improved
 
 ## Usage
 
@@ -58,7 +53,7 @@ Edit `_config.yml`:
 theme: lx
 ```
 
-## Functions
+## Features
 
 >The description here is not complete. You should read the comment in `themes/lx/_config.yml`
 
