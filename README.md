@@ -14,7 +14,7 @@ Live Demo:[https://lx.js.org](https://lx.js.org)
 
 *THE SUBDOMAIN IS PROVIDED BY [JS.ORG](https://github.com/js-org/js.org)*
 
-Telegram: [https://t.me/themelx](https://t.me/theme/lx)
+Telegram: [https://t.me/themelx](https://t.me/themelx)
 
 Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
