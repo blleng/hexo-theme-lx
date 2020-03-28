@@ -10,6 +10,6 @@
       "unescape": <%- theme.local_search.unescape%>,
       "preload": <%- theme.local_search.preload%>
       },
-    path: '<%if (theme.local_search.enable) {%><%- config.search.path%><%} else {%>-<%}%>'
+    path: '<%if (theme.local_search.enable) {%><%- config.search.path%><%} else {%>null<%}%>'
   };
 </script>
