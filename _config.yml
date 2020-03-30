@@ -114,22 +114,31 @@ font_awesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 font:
   enable: true
   host: //fonts.googleapis.com
-  codes: ##the font of codes
+  codes: ##the font for codes
     enable: true
     family: Fira Code
-  else:
+  else:  ##the font for others
     enable: false
     family: Noto Serif SC
 
-#############Warning##################
-#####Don't edit options below#########
-##unless you know what you are doing##
-#############Warning##################
+
+    
+########### Develop Options ############
+############# Warning ##################
+####### Don't edit options below #######
+## unless you know what you are doing ##
+############# Warning ##################
+
+
+
 #The dir of Js and Css
 base_file:
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/
   css: //cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/css/
 
-#developer option
-develop: false  #If true，lx will load js and css from local `source` dir.
+#develop mode
+#If true，`lx` will load js and css from local `source` dir.
+#Local css file---> themes/lx/source/main.styl
+#Local js file dir---> themes/lx/sourc/js/
+develop: false
