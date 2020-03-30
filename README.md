@@ -8,9 +8,9 @@ Hexo-Theme-Lx
 
 >If you like the theme, please give me star.
 
-Languages: English   [中文](README/README.zh.md)
+Languages: English | [中文](README/README.zh.md)
 
-Live Demo:[https://lx.js.org](https://lx.js.org)
+Live Demo: [https://lx.js.org](https://lx.js.org)
 
 *THE SUBDOMAIN IS PROVIDED BY [JS.ORG](https://github.com/js-org/js.org)*
 
