@@ -1,6 +1,6 @@
 {
   "name": "theme-lx",
-  "version": "0.3.10-fixed",
+  "version": "0.3.11",
   "description": "A simle & clear & elegant hexo theme",
   "main": "source/css/main.min.css",
   "scripts": {
