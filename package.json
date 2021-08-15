@@ -23,6 +23,7 @@
   "homepage": "https://github.com/blleng/hexo-theme-lx#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-stylus": "^2.7.0"
   }

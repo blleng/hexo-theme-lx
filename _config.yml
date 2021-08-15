@@ -13,16 +13,16 @@ theme_color: "#58b77a"
 personal_des: Hello, World!
 
 # avatar
-avatar: images/avatar.jpeg
+avatar: images/avatar.min.jpeg
 
 ###The options below are images information
 # Home cover
-cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/cover.jpeg
+cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/cover.min.jpeg
 # page cover
-postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/post_cover.jpeg
+postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/post_cover.min.jpeg
 # the cover of newer or older post
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/footer-r.jpeg
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/footer-l.jpeg
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/footer-r.min.jpeg
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.10-fixed/source/images/footer-l.min.jpeg
 
 # The theme of sidebar
 ##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
