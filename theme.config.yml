@@ -1,0 +1,146 @@
+### Welcome to Hexo-Theme-Lx
+###Author:blleng(https://github.com/blleng)
+###Version:latest
+version: latest
+
+# favicon
+favicon: favicon.ico
+
+# Theme-color for Android Chrome
+theme_color: "#58b77a"
+
+# personal information
+personal_des: Code Changes The World!
+
+# avatar
+avatar: images/avatar.min.jpeg
+
+###The options below are images information
+# Home cover
+cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/images/cover.min.jpeg
+# page cover
+postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/images/post_cover.min.jpeg
+# the cover of newer or older post
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/images/footer-r.min.jpeg
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/images/footer-l.min.jpeg
+
+# The theme of sidebar
+##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
+##gradient color：endless-river,crazy-orange,between-clouds,amethyst,steel-man,d2f(dance to forget),park-life,moonlit,fb-messenger,flickr
+## default: black-grey
+menu_theme: greenish
+
+# menu content
+menu:
+  category: true #category
+  pages:  #the page created by yourself
+    enable: true
+    links:
+      Guestbook: guestbook/
+  friends:
+    enable: true
+    links:
+      Theme-Lx: https://lx.js.org
+
+
+# social links
+#
+# links:
+# name:
+#   icon: fontawesome icon
+#   link: url
+social:
+  enable: true
+  links:
+    GitHub:
+      icon: github
+      link: https://github.com/blleng
+    Email:
+      icon: envelope
+      link: mailto:l0bl@outlook.com
+  #  Weibo:
+  #    icon: weibo
+  #    link: https://weibo.com/yourname
+  #  Twitter:
+  #    icon: twitter
+  #    link: https://twitter.com/yourname
+  #  Instagram:
+  #    icon: instagram
+  #    link: https://instagram.com/yourname
+
+# local search
+#install first:
+#'npm install hexo-generator-searchdb -s'
+local_search:
+  enable: true
+  trigger: auto #'auto' or 'manual' 
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+  placeholder: Search...
+
+# footer
+footer: <a href="https://github.com/blleng/hexo-theme-lx">Star</a>me if you like.
+
+# Analytics
+google_analytics: UA-141208129-2 #Google ID
+baidu_analytics: #Baidu ID
+
+# Lx use valine as comment system
+# You should create an application in Leancloud to get the appid and appkey
+comment:
+  enable: true
+  appid: tLxzstD3vEiOSxwWGjynT5XP-gzGzoHsz
+  appkey: YHkuTnCBpCcsod800tQRMahH
+  notify: false
+  verify: false
+  placeholder: Say something...
+  avatar: identicon
+  guest_info: nick,mail,link
+  pageSize: 10
+  language: en
+  cdn: //cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
+
+# Mathjax
+mathjax:
+  enable: true
+  cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
+
+# FontAwesome-CDN
+font_awesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+
+# Font
+font:
+  enable: true
+  host: //fonts.googleapis.com
+  codes: ##the font for codes
+    enable: true
+    family: Fira Code
+  else:  ##the font for others
+    enable: false
+    family: Noto Serif SC
+
+
+    
+########### Develop Options ############
+############# Warning ##################
+####### Don't edit options below #######
+## unless you know what you are doing ##
+############# Warning ##################
+
+
+
+#The dir of Js and Css
+base_file:
+  jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/js/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/css/
+
+#develop mode
+#If true，`lx` will load js and css from local `source` dir.
+#Local css file---> 'themes/lx/source/css'
+#Local js file dir---> 'themes/lx/sourc/js/'
+###
+#Special Tips: 'themes/lx/source/css/main.min.css' is only for CDN and it doesn't work under any mode.
+###
+develop: false
