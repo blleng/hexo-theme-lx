@@ -40,6 +40,7 @@ jobs:
       run: |
         hexo clean
         hexo generate
+        gulp
 
     - name: Deploy to gh-page🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
