@@ -2,13 +2,9 @@ name: Theme Test CI/CD
 
 on:
   push:
-    branches: 
-      - master
-      - test
+    branches: [master, test]
   pull_request:
-    branches:
-      - master
-      - test
+    branches: [master, test]
 
 env:
   TZ: Asia/Shanghai
