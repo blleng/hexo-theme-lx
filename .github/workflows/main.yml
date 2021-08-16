@@ -10,7 +10,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  theme test:
+  theme_test:
     name: Hexo build & deploy
     runs-on: ubuntu-latest
 
