@@ -2,9 +2,12 @@ name: Theme Test CI/CD
 
 on:
   push:
-    branches: [master, test]
+    branches: [test]
   pull_request:
-    branches: [master, test]
+    branches: [test]
+  workflow_run:
+    workflows: ["master"]
+    types: [completed]
 
 env:
   TZ: Asia/Shanghai
