@@ -80,7 +80,7 @@ local_search:
   placeholder: Search...
 
 # footer
-footer: <a href="https://github.com/blleng/hexo-theme-lx">Star</a>me if you like.
+footer: <a href="https://github.com/blleng/hexo-theme-lx">Star</a> me if you like.
 
 # Analytics
 google_analytics: UA-141208129-2 #Google ID
