@@ -6,7 +6,8 @@ on:
   pull_request:
     branches: [test]
   workflow_run:
-    workflows: ["master"]
+    workflows: ["Node.js CI"]
+    branches: [master]
     types: [completed]
 
 env:
