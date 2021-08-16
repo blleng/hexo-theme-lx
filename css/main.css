@@ -164,8 +164,9 @@ h2.title a {
 #lx-aside .featured {
   z-index: 2;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 35%;
   width: 85%;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   #lx-aside .featured {
@@ -778,10 +779,11 @@ a.category-link {
 }
 .row {
   display: table-cell;
+  vertical-align: middle;
 }
 .for-name {
-  max-width: 140px;
-  padding: 10px;
+  max-width: 172px;
+  padding: 10px 0 10px 10px;
   color: var(--skin-color);
 }
 .for-pic {
@@ -795,12 +797,12 @@ a.category-link {
   object-fit: cover;
 }
 .menu-head p {
-  top: -35px;
-  font-size: 13pt;
+  font-size: 17px;
   font-weight: 400;
 }
 .tagline,
 .menu-head p {
+  margin: 0 0 4px 0;
   display: block;
   position: relative;
   overflow: hidden;
@@ -809,7 +811,6 @@ a.category-link {
 }
 .tagline {
   font-size: 11px;
-  bottom: 32px;
   display: block;
 }
 .red {

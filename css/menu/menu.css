@@ -197,10 +197,11 @@
 }
 .row {
   display: table-cell;
+  vertical-align: middle;
 }
 .for-name {
-  max-width: 140px;
-  padding: 10px;
+  max-width: 172px;
+  padding: 10px 0 10px 10px;
   color: var(--skin-color);
 }
 .for-pic {
@@ -214,12 +215,12 @@
   object-fit: cover;
 }
 .menu-head p {
-  top: -35px;
-  font-size: 13pt;
+  font-size: 17px;
   font-weight: 400;
 }
 .tagline,
 .menu-head p {
+  margin: 0 0 4px 0;
   display: block;
   position: relative;
   overflow: hidden;
@@ -228,7 +229,6 @@
 }
 .tagline {
   font-size: 11px;
-  bottom: 32px;
   display: block;
 }
 /*skins*/
