@@ -1,4 +1,5 @@
 var gulp = require('gulp'),
+    del = require('del'),
     minifyCss = require('gulp-clean-css'),
     rename = require('gulp-rename');
 
