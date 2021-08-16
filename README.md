@@ -14,28 +14,27 @@ Live Demo: [https://lx.js.org](https://lx.js.org)
 
 *THE SUBDOMAIN IS PROVIDED BY [JS.ORG](https://github.com/js-org/js.org)*
 
-Telegram: [https://t.me/themelx](https://t.me/themelx)
-
 Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
-### V 0.3.10
+### V 0.3.11
 
 - Some known problems have been solved.
-- The outline of the sheet has been improved.
 
 ## Usage
 
 ### The stable version
 
-https://github.com/blleng/hexo-theme-lx/releases
+Live Demo: https://lx.js.org
+
+Download: https://github.com/blleng/hexo-theme-lx/releases
 
 Unzip the file and rename it as `lx`. Put it under `themes`
 
->Don't use 'V 0.3.3' and 'V 0.3.5'!!
+### Latest version(Dev)
 
-### Latest version
+Test site: https://lx.blleng.cn
 
 At theme blog root dir:
 
@@ -43,7 +42,7 @@ At theme blog root dir:
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```
 
->This version is under development and it may have bugs.
+>This version is under development and it may contain some unknown bugs.
 
 ### Apply
 

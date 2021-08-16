@@ -14,28 +14,27 @@ Live Demo: [https://lx.js.org](https://lx.js.org)
 
 作者的博客: [https://freezing.cool](https://freezing.cool)
 
-Telegram群组: [https://t.me/themelx](https://t.me/themelx)
-
 有任何疑问和建议请提交[issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## 最近更新
 
-### V 0.3.10
+### V 0.3.11
 
 - 解决了一些已知问题。
-- 改善了表格样式。
 
 ## 使用：
 
 ### 获取最稳定的版本：
 
-https://github.com/blleng/hexo-theme-lx/releases
+预览：https://lx.js.org
+
+下载地址：https://github.com/blleng/hexo-theme-lx/releases
 
 解压后将文件夹命名为`lx`放在`themes`文件夹中。
 
->推荐使用稳定版本(请勿使用 'V 0.3.3' 和 'V 0.3.5' ！！)
+### 获取具有最新特性的版本（开发版）：
 
-### 获取具有最新特性的版本：
+测试站点：https://lx.blleng.cn
 
 在博客根目录:
 
@@ -43,7 +42,7 @@ https://github.com/blleng/hexo-theme-lx/releases
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```
 
->不推荐这种方式。虽然我尽量保证没有bug后再推送至GitHub仓库，但正在开发中的版本仍可能有bug。
+>处于开发中的版本或许存在未知的bug。
 
 ### 启用本主题：
 
