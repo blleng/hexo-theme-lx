@@ -813,7 +813,7 @@ a.category-link {
   display: block;
 }
 .red {
-  ackground: #e41b17;
+  background: #e41b17;
   --skin-hover: #000;
   --skin-color: #fff;
 }
