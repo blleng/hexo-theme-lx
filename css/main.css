@@ -1401,5 +1401,6 @@ td {
   border-bottom-width: 1px;
 }
 mjx-container {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
