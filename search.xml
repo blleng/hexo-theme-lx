@@ -16,7 +16,8 @@
             <p>本站为<code>lx</code>主题提供<code>master</code>分支的最新预览和测试，而非为大家提供帮助，如若需要帮助、报告bug或提出建议请务必提交issue。</p>
           </div>
 
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="获取稳定版本："><a href="#获取稳定版本：" class="headerlink" title="获取稳定版本："></a>获取稳定版本：</h3><p><a href="https://github.com/blleng/hexo-theme-lx/releases">https://github.com/blleng/hexo-theme-lx/releases</a></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="获取稳定版本："><a href="#获取稳定版本：" class="headerlink" title="获取稳定版本："></a>获取稳定版本：</h3><p>稳定版本预览：<a href="https://lx.js.org/">https://lx.js.org</a></p>
+<p><a href="https://github.com/blleng/hexo-theme-lx/releases">https://github.com/blleng/hexo-theme-lx/releases</a></p>
 <p>解压后将文件夹命名为<code>lx</code>放在<code>themes</code>文件夹中。</p>
 <h3 id="获取具有最新特性的版本："><a href="#获取具有最新特性的版本：" class="headerlink" title="获取具有最新特性的版本："></a>获取具有最新特性的版本：</h3><p>在博客根目录:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
@@ -141,7 +142,8 @@
             <p>This site provides a live demo and the test for <code>the latest version</code> of <code>lx</code> and won’t offer help.<br>Any problem,suggestion or bug report –&gt; <a href="https://github.com/blleng/hexo-theme-lx/issues">Issue</a></p>
           </div>
 
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Stable-Version："><a href="#Stable-Version：" class="headerlink" title="Stable Version："></a>Stable Version：</h3><p><a href="https://github.com/blleng/hexo-theme-lx/releases">https://github.com/blleng/hexo-theme-lx/releases</a></p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Stable-Version："><a href="#Stable-Version：" class="headerlink" title="Stable Version："></a>Stable Version：</h3><p>Live demo for the stable version: <a href="https://lx.js.org/">https://lx.js.org</a></p>
+<p><a href="https://github.com/blleng/hexo-theme-lx/releases">https://github.com/blleng/hexo-theme-lx/releases</a></p>
 <p>Unzip the package and put the files under <code>themes</code> dir. Rename the new folder(hexo-theme-lx) as <code>lx</code>.</p>
 <h3 id="Latest-Version："><a href="#Latest-Version：" class="headerlink" title="Latest Version："></a>Latest Version：</h3><p>At the root dir of the blog:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
