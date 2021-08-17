@@ -13,7 +13,7 @@ theme_color: "#58b77a"
 personal_des: Code Changes The World!
 
 # avatar
-avatar: images/avatar.min.jpeg
+avatar: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/sourceimages/avatar.min.jpeg
 
 ###The options below are images information
 # Home cover
@@ -133,8 +133,8 @@ font:
 #The dir of Js and Css
 base_file:
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/js/
-  css: /css/
+  js: /dist/js/
+  css: /dist/css/
 
 #develop mode
 #If true，`lx` will load js and css from local `source` dir.
