@@ -159,3 +159,4 @@ theme_config:
   
   base_file:
     css: /dist/css/main.min.css
+    js: /dist/js/
