@@ -13,16 +13,16 @@ theme_color: "#58b77a"
 personal_des: Hello, World!
 
 # avatar
-avatar: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/avatar.min.jpeg
+avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/avatar.min.jpeg
 
 ###The options below are images information
 # Home cover
-cover: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/cover.min.jpeg
+cover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/cover.min.jpeg
 # page cover
-postcover: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/post_cover.min.jpeg
+postcover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/post_cover.min.jpeg
 # the cover of newer or older post
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/footer-r.min.jpeg
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/footer-l.min.jpeg
+pre_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/footer-r.min.jpeg
+nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/footer-l.min.jpeg
 
 # The theme of sidebar
 ##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
@@ -100,20 +100,20 @@ comment:
   guest_info: nick,mail,link
   pageSize: 10
   language: en
-  cdn: //cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
+  cdn: https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
 
 # Mathjax
 mathjax:
   enable: true
-  cdn: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
+  cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
 
 # FontAwesome-CDN
-font_awesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+font_awesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
 # Font
 font:
   enable: true
-  host: //fonts.googleapis.com
+  host: https://fonts.googleapis.com
   codes: ##the font for codes
     enable: true
     family: Fira Code
@@ -121,8 +121,12 @@ font:
     enable: false
     family: Noto Serif SC
 
+# Custom CSS
+# If true, Lx will load 'source/css/custom.styl'
+custom_css: false
 
-    
+
+
 ########### Develop Options ############
 ############# Warning ##################
 ####### Don't edit options below #######
@@ -130,18 +134,8 @@ font:
 ############# Warning ##################
 
 
-
 #The dir of Js and Css
 base_file:
-  jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/js/
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/css/
-
-#develop mode
-#If true，`lx` will load js and css from local `source` dir.
-#Local css file---> 'themes/lx/source/css'
-#Local js file dir---> 'themes/lx/sourc/js/'
-###
-#Special Tips: 'themes/lx/source/css/main.min.css' is only for CDN and it doesn't work under any mode.
-###
-develop: false
+  jquery_cdn: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+  js: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/js/
+  css: https://cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/css/
