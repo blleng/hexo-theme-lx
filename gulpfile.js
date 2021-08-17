@@ -6,41 +6,40 @@ var gulp = require("gulp"),
     imagemin = require("gulp-imagemin");
 
 function clean(cb){
-  const deletedPaths = del.sync(['source/dist/*']);
-  console.log('Deleted:\n', deletedPaths.join('\n'));
+  const deletedPaths = del.sync(["source/dist/*"]);
   cb();
 }
 
 function cssMinify(){
-  gulp.src('source/css/main.styl')
+  gulp.src("source/css/main.styl")
     .pipe(rename({
-      suffix: '.min'
+      suffix: ".min"
     }))
     .pipe(stylus({
       compress: true
     }))
-    .pipe(gulp.dest('source/dist/css'));
- };
+    .pipe(gulp.dest("source/dist/css"));
+ }
 
 function jsMinify(){
-  gulp.src('source/js/*.js')
+  gulp.src("source/js/*.js")
     .pipe(rename({
-      suffix: '.min'
+      suffix: ".min"
     }))
     .pipe(uglify())
-    .pipe(gulp.dest('source/dist/js'));
-};
+    .pipe(gulp.dest("source/dist/js"));
+}
 
 function imageMinify(){
-  gulp.src('source/images/*.jpeg*')
+  gulp.src("source/images/*.jpeg*")
     .pipe(rename({
-      suffix: '.min'
+      suffix: ".min"
     }))
     .pipe(imagemin([
       imagemin.mozjpeg({quality:70, progressive: true})
     ]))
-    .pipe(gulp.dest('source/dist/images'));
-};
+    .pipe(gulp.dest("source/dist/images"));
+}
 
 function buildAll(cb){
   cssMinify();

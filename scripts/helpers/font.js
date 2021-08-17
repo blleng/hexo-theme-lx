@@ -1,5 +1,5 @@
 "use strict";
-hexo.extend.helper.register("lx_font", () => {
+function lx_font(){
   var config = hexo.theme.config.font;
   if (!config || !config.enable) return "";
   var fontDisplay = "&display=swap";
@@ -16,4 +16,5 @@ hexo.extend.helper.register("lx_font", () => {
   fontFamilies = [...new Set(fontFamilies)];
   fontFamilies = fontFamilies.join("|");
   return fontFamilies ? `<link rel="stylesheet" href="${fontHost}/css?family=${fontFamilies.concat(fontDisplay, fontSubset)}">` : "";
-});
+}
+hexo.extend.helper.register("font", lx_font);

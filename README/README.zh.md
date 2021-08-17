@@ -1,7 +1,6 @@
-<img src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" alt="logo" width="140" height="140" align="right">
+# Hexo-Theme-Lx
 
-Hexo-Theme-Lx
----
+![logo](https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg){:width="140" height="140" align="right"}
 
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
@@ -10,8 +9,8 @@ Hexo-Theme-Lx
 
 Live Demo:
 
-> Stable: [https://lx.js.org](https://lx.js.org)
-> Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
+>Stable: [https://lx.js.org](https://lx.js.org)
+>Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
 
 作者的博客: [https://freezing.cool](https://freezing.cool)
 
@@ -19,7 +18,7 @@ Live Demo:
 
 ## 最近更新
 
-### V 0.3.11
+### V0.3.11
 
 - 解决了一些已知问题。
 
@@ -31,9 +30,10 @@ Live Demo:
 
 ```bash
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
+clone into 'themes/lx'...
 ```
 
-### 启用本主题：
+### 启用本主题
 
 更改站点设置文件`_config.yml`:
 
