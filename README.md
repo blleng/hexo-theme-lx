@@ -1,7 +1,6 @@
-<img src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" alt="logo" width="140" height="140" align="right">
+# Hexo-Theme-Lx
 
-Hexo-Theme-Lx
----
+<img src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" width="140" height="140" align="right" alt="logo">
 
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
@@ -12,16 +11,19 @@ Languages: English | [中文](README/README.zh.md)
 
 Live Demo:
 
-> Stable:[https://lx.js.org](https://lx.js.org)
-> Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
+>Stable:[https://lx.js.org](https://lx.js.org)
+>Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
 
 Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
-### V 0.3.11
+### V0.4.0
 
-- Some known problems have been solved.
+- Known probleams fixed.
+- Custom css support.
+- Performance improved.
+- Style improved.
 
 ## Usage
 
@@ -31,6 +33,7 @@ At theme blog root dir:
 
 ```bash
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
+clone into 'themes/lx'...
 ```
 
 ### Apply
@@ -168,6 +171,13 @@ font:
   else:
     enable: false
     family: 
+```
+
+### Custom css
+
+```yml
+custom_css: false
+# If true, Lx will load 'source/css/custom.styl'.
 ```
 
 ## Style

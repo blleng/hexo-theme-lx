@@ -9,8 +9,6 @@ if (pageTitle == '') {
 }
 var js = theme.base_file.js;
 var css = theme.base_file.css;
-if (theme.develop){ js = config.root + 'js/'; css = config.root + 'css/main.css';}
-else { css += 'main.min.css';}
 %><!DOCTYPE html>
 <html <%if(config.language.length){%>lang="<%-config.language.substring(0,2)%>"<%}%>>
 <head>
@@ -25,9 +23,10 @@ else { css += 'main.min.css';}
   <%- partial('partials/config')%>
   <link rel="shortcut icon" href="<%- url_for(theme.favicon)%>">
   <link rel="stylesheet" href="<%= css%>">
+  <% if(theme.custom_css) {%><link rel="stylesheet" href="/css/custom.css"><%}%>
   <%-partial('partials/font')%>
   <script src="<%= theme.base_file.jquery_cdn%>"></script>
-  <script src="<%= js%>jquery.jside.menu.js"></script>
+  <script src="<%= js%>jquery.jside.menu.min.js"></script>
 	<script>
 	$(document).ready(function(){
 	$(".menu-container").jSideMenu({
@@ -38,7 +37,7 @@ else { css += 'main.min.css';}
 	}); 
 	</script>
   <%-partial('third-party/analytics/index')%>
-  <%- lx_font()%>
+  <%- font()%>
   <link rel="stylesheet" href="<%= theme.font_awesome%>">
 </head>
 <body>
@@ -78,7 +77,7 @@ else { css += 'main.min.css';}
 	});
 }());
 </script>
-<% if (theme.local_search.enable) {%><script src="<%= js%>local.search.js"></script><%}%>
+<%if (theme.local_search.enable) {%><script src="<%= js%>local.search.min.js"></script><%}%>
 <%if (theme.comment.enable) {%><%- partial('third-party/comment')%><%}%>
 <%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%></body>
 </html>

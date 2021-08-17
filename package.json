@@ -1,6 +1,6 @@
 {
   "name": "theme-lx",
-  "version": "0.3.11",
+  "version": "0.4.0",
   "description": "A simle & clear & elegant hexo theme",
   "main": "source/css/main.min.css",
   "scripts": {
@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/blleng/hexo-theme-lx#readme",
   "devDependencies": {
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
-    "gulp-stylus": "^2.7.0"
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2"
   }
 }
