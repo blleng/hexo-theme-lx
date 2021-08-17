@@ -103,3 +103,52 @@ theme: lx
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+theme_config:
+  personal_des: Code Changes The World!
+
+  menu:
+    category: true
+    pages:
+      enable: true
+      links:
+        Guestbook: guestbook/
+    friends:
+      enable: true
+      links:
+        Stable Version: https://lx.js.org
+
+  social:
+    enable: true
+    links:
+      GitHub:
+        icon: github
+        link: https://github.com/blleng
+      Email:
+        icon: envelope
+        link: mailto:l0bl@outlook.com
+
+  local_search:
+    enable: true
+    trigger: auto 
+    top_n_per_article: 1
+    unescape: false
+    preload: false
+    placeholder: Search...
+
+  footer: <a href="https://github.com/blleng/hexo-theme-lx">Star</a> me if you like.
+
+  google_analytics: UA-141208129-2
+
+  comment:
+    enable: true
+    appid: tLxzstD3vEiOSxwWGjynT5XP-gzGzoHsz
+    appkey: YHkuTnCBpCcsod800tQRMahH
+    notify: false
+    verify: false
+    placeholder: Say something...
+    avatar: identicon
+    guest_info: nick,mail,link
+    pageSize: 10
+    language: en
+    cdn: https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
