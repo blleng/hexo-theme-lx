@@ -21,7 +21,7 @@ jobs:
     - name: Checkout codes
       uses: actions/checkout@v2
       with:
-        reposotory: 'blleng/lx-test'
+        repository: 'blleng/lx-test'
 
     - name: Setup node
       uses: actions/setup-node@v1
