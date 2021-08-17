@@ -120,6 +120,7 @@ theme_config:
       enable: true
       links:
         Stable Version: https://lx.js.org
+        Theme-Lx: https://github.com/blleng/hexo-theme-lx
 
   social:
     enable: true
