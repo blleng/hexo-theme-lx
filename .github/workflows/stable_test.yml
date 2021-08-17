@@ -49,7 +49,5 @@ jobs:
         git-config-name: blleng
         git-config-email: l0bl@outlook.com
         repository-name: blleng/lx-test
-        git-config-name: blleng
-        git-config-email: l0bl@outlook.com
         branch: gh-page
         folder: public
