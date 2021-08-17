@@ -2,9 +2,9 @@ name: Dev Theme Test
 
 on:
   push:
-    branches: [test, dev]
+    branches: [dev]
   pull_request:
-    branches: [test, dev]
+    branches: [dev]
 
 env:
   TZ: Asia/Shanghai
