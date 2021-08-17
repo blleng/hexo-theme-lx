@@ -108,9 +108,6 @@
 .menu-right,
 .menu-right.open {
   transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
 }
 .menu-container,
 .menu-head {
@@ -166,13 +163,11 @@
   font-size: 13px;
   color: $black-g;
   transition: 0.1s;
-  -webkit-transition: 0.1s;
   border-bottom: 1px dotted $grey-g;
 }
 .has-sub ul li a:hover {
   background: $grey-w;
   transition: 0.1s;
-  -webkit-transition: 0.1s;
 }
 .has-sub span {
   display: block;
@@ -186,11 +181,7 @@
 }
 .has-sub .fa-chevron-down.fa-down {
   transform: rotateZ(180deg);
-  -webkit-transform: rotateZ(180deg);
-  -moz-transform: rotateZ(180deg);
   transition: 0.36s;
-  -webkit-transition: 0.36s;
-  -moz-transition: 0.36s;
 }
 .col {
   display: table;
@@ -284,8 +275,6 @@
 .endless-river {
   --theme-color: #43cea2;
   background: #43cea2;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #185a9d, #43cea2);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -295,8 +284,6 @@
 .crazy-orange {
   --theme-color: #d38312;
   background: #d38312;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a83279, #d38312);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #a83279, #d38312);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -306,8 +293,6 @@
 .between-clouds {
   --theme-color: #73c8a9;
   background: #73c8a9;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #373b44, #73c8a9);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #373b44, #73c8a9);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -317,8 +302,6 @@
 .amethyst {
   --theme-color: #9d50bb;
   background: #9d50bb;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6e48aa, #9d50bb);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #6e48aa, #9d50bb);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -328,8 +311,6 @@
 .steel-man {
   --theme-color: #780206;
   background: #780206;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #061161, #780206);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #061161, #780206);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -339,8 +320,6 @@
 .d2f {
   --theme-color: #ff4e50;
   background: #ff4e50;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f9d423, #ff4e50);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f9d423, #ff4e50);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -350,8 +329,6 @@
 .park-life {
   --theme-color: #add100;
   background: #add100;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #7b920a, #add100);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #7b920a, #add100);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -361,8 +338,6 @@
 .moonlit {
   --theme-color: #0f2027;
   background: #0f2027;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -372,8 +347,6 @@
 .fb-messenger {
   --theme-color: #00c6ff;
   background: #00c6ff;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #0072ff, #00c6ff);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -383,8 +356,6 @@
 .flickr {
   --theme-color: #ff0084;
   background: #ff0084;
-/* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #33001b, #ff0084);
 /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #33001b, #ff0084);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -393,40 +364,32 @@
 @-moz-keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-opacity: 0;
   }
   to {
     opacity: 1;
-    -webkit-opacity: 1;
   }
 }
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-opacity: 0;
   }
   to {
     opacity: 1;
-    -webkit-opacity: 1;
   }
 }
 @-o-keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-opacity: 0;
   }
   to {
     opacity: 1;
-    -webkit-opacity: 1;
   }
 }
 @keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-opacity: 0;
   }
   to {
     opacity: 1;
-    -webkit-opacity: 1;
   }
 }
