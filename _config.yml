@@ -1,7 +1,7 @@
 ### Welcome to Hexo-Theme-Lx
 ###Author:blleng(https://github.com/blleng)
-###Version:v0.3.11
-version: 0.3.11
+###Version:v0.4.0-0
+version: 0.4.0-0
 
 # favicon
 favicon: favicon.ico
@@ -13,16 +13,16 @@ theme_color: "#58b77a"
 personal_des: Hello, World!
 
 # avatar
-avatar: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dist/images/avatar.min.jpeg
+avatar: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/avatar.min.jpeg
 
 ###The options below are images information
 # Home cover
-cover: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dist/images/cover.min.jpeg
+cover: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/cover.min.jpeg
 # page cover
-postcover: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dist/images/post_cover.min.jpeg
+postcover: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/post_cover.min.jpeg
 # the cover of newer or older post
-pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dist/images/footer-r.min.jpeg
-nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dist/images/footer-l.min.jpeg
+pre_post: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/footer-r.min.jpeg
+nex_post: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/images/footer-l.min.jpeg
 
 # The theme of sidebar
 ##pure color：green,red,blue,bnp(bright neon pink),orange,black,pink,gol-b(golden brown),greenish(greenish blue)
@@ -134,8 +134,8 @@ font:
 #The dir of Js and Css
 base_file:
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  js: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dist/js/
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/dits/css/
+  js: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dist/js/
+  css: //cdn.jsdelivr.net/npm/theme-lx@0.4.0-0/source/dits/css/
 
 #develop mode
 #If true，`lx` will load js and css from local `source` dir.
