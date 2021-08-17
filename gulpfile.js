@@ -39,6 +39,7 @@ function imageMinify(){
       imagemin.mozjpeg({quality:70, progressive: true})
     ]))
     .pipe(gulp.dest("source/dist/images"));
+  gulp.src("source/images/*.svg").pipe(gulp.dest("source/dist/images"));
 }
 
 function buildAll(cb){

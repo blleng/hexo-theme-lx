@@ -18,9 +18,12 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
-### V0.3.11
+### V0.4.0
 
-- Some known problems have been solved.
+- Known probleams fixed.
+- Custom css support.
+- Performance improved.
+- Style improved.
 
 ## Usage
 
@@ -168,6 +171,13 @@ font:
   else:
     enable: false
     family: 
+```
+
+### Custom css
+
+```yml
+custom_css: false
+# If true, Lx will load 'source/css/custom.styl'.
 ```
 
 ## Style
