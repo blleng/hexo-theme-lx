@@ -50,4 +50,5 @@ jobs:
         git-config-email: l0bl@outlook.com
         repository-name: blleng/lx-test
         branch: gh-page
+        token: ${{ secrets.LX_STABLE_REPO }}
         folder: public
