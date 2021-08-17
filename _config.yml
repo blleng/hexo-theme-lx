@@ -105,6 +105,8 @@ deploy:
   type: ''
 
 theme_config:
+  version: latest
+
   personal_des: Code Changes The World!
 
   menu:
@@ -113,6 +115,7 @@ theme_config:
       enable: true
       links:
         Guestbook: guestbook/
+        About: about/
     friends:
       enable: true
       links:
