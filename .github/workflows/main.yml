@@ -43,5 +43,7 @@ jobs:
     - name: Deploy to gh-page🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
+        git-config-name: blleng
+        git-config-email: l0bl@outlook.com
         branch: gh-page # The branch the action should deploy to.
         folder: public # The folder the action should deploy.
