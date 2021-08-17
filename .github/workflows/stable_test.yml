@@ -21,7 +21,7 @@ jobs:
     - name: Checkout codes
       uses: actions/checkout@v2
       with:
-        reposotory: 'blleng/lx-test'
+        repository: 'blleng/lx-test'
 
     - name: Setup node
       uses: actions/setup-node@v1
@@ -49,7 +49,6 @@ jobs:
         git-config-name: blleng
         git-config-email: l0bl@outlook.com
         repository-name: blleng/lx-test
-        git-config-name: blleng
-        git-config-email: l0bl@outlook.com
         branch: gh-page
+        token: ${{ secrets.LX_STABLE_REPO }}
         folder: public
