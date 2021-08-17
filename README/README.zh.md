@@ -6,11 +6,12 @@ Hexo-Theme-Lx
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->如果你喜欢本主题，请点击`star`收藏
+>如果你喜欢本主题，可点击`star`收藏
 
-Live Demo: [https://lx.js.org](https://lx.js.org)
+Live Demo:
 
-*该子域名由 [JS.ORG](https://github.com/js-org/js.org) 提供。*
+> Stable: [https://lx.js.org](https://lx.js.org)
+> Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
 
 作者的博客: [https://freezing.cool](https://freezing.cool)
 
@@ -24,25 +25,13 @@ Live Demo: [https://lx.js.org](https://lx.js.org)
 
 ## 使用：
 
-### 获取最稳定的版本：
-
-预览：https://lx.js.org
-
-下载地址：https://github.com/blleng/hexo-theme-lx/releases
-
-解压后将文件夹命名为`lx`放在`themes`文件夹中。
-
-### 获取具有最新特性的版本（开发版）：
-
-测试站点：https://lx.blleng.cn
+### 克隆到本地
 
 在博客根目录:
 
 ```bash
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```
-
->处于开发中的版本或许存在未知的bug。
 
 ### 启用本主题：
 

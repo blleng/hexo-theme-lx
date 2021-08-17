@@ -135,7 +135,7 @@ font:
 base_file:
   jquery_cdn: //cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
   js: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/js/
-  css: //cdn.jsdelivr.net/npm/theme-lx@0.3.11/source/css/
+  css: /css/
 
 #develop mode
 #If true，`lx` will load js and css from local `source` dir.

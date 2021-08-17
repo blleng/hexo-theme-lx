@@ -6,13 +6,14 @@ Hexo-Theme-Lx
 [![Github Release](https://img.shields.io/github/release/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/releases/)
 [![Github License](https://img.shields.io/github/license/blleng/hexo-theme-lx.svg)](https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE)
 
->If you like the theme, please give me star.
+>Star me if you like.
 
 Languages: English | [中文](README/README.zh.md)
 
-Live Demo: [https://lx.js.org](https://lx.js.org)
+Live Demo:
 
-*THE SUBDOMAIN IS PROVIDED BY [JS.ORG](https://github.com/js-org/js.org)*
+> Stable:[https://lx.js.org](https://lx.js.org)
+> Dev: [https://lx.blleng.cn](https://lx.blleng.cn)
 
 Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
@@ -24,25 +25,13 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## Usage
 
-### The stable version
-
-Live Demo: https://lx.js.org
-
-Download: https://github.com/blleng/hexo-theme-lx/releases
-
-Unzip the file and rename it as `lx`. Put it under `themes`
-
-### Latest version(Dev)
-
-Test site: https://lx.blleng.cn
+### Git clone
 
 At theme blog root dir:
 
 ```bash
 $ git clone https://github.com/blleng/hexo-theme-lx themes/lx
 ```
-
->This version is under development and it may contain some unknown bugs.
 
 ### Apply
 
