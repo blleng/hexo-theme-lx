@@ -27,7 +27,7 @@ else { css += 'main.min.css';}
   <link rel="stylesheet" href="<%= css%>">
   <%-partial('partials/font')%>
   <script src="<%= theme.base_file.jquery_cdn%>"></script>
-  <script src="<%= js%>jquery.jside.menu.js"></script>
+  <script src="<%= js%>jquery.jside.menu.min.js"></script>
 	<script>
 	$(document).ready(function(){
 	$(".menu-container").jSideMenu({
@@ -78,7 +78,7 @@ else { css += 'main.min.css';}
 	});
 }());
 </script>
-<% if (theme.local_search.enable) {%><script src="<%= js%>local.search.js"></script><%}%>
+<% if (theme.local_search.enable) {%><script src="<%= js%>local.search.min.js"></script><%}%>
 <%if (theme.comment.enable) {%><%- partial('third-party/comment')%><%}%>
 <%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%></body>
 </html>

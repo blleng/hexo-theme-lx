@@ -1,9 +1,17 @@
-var gulp = require('gulp'),
+var gulp = require("gulp"),
+    del = require("del"),
     stylus = require("gulp-stylus"),
     rename = require("gulp-rename"),
+    uglify = require("gulp-uglify"),
     imagemin = require("gulp-imagemin");
 
-function stylusToMinCss(){
+function clean(cb){
+  const deletedPaths = del.sync(['source/dist/*']);
+  console.log('Deleted:\n', deletedPaths.join('\n'));
+  cb();
+}
+
+function cssMinify(){
   gulp.src('source/css/main.styl')
     .pipe(rename({
       suffix: '.min'
@@ -11,8 +19,18 @@ function stylusToMinCss(){
     .pipe(stylus({
       compress: true
     }))
-    .pipe(gulp.dest('source/css'));
+    .pipe(gulp.dest('source/dist/css'));
  };
+
+function jsMinify(){
+  gulp.src('source/js/*.js')
+    .pipe(rename({
+      suffix: '.min'
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest('source/dist/js'));
+};
+
 function imageMinify(){
   gulp.src('source/images/*.jpeg*')
     .pipe(rename({
@@ -21,23 +39,30 @@ function imageMinify(){
     .pipe(imagemin([
       imagemin.mozjpeg({quality:70, progressive: true})
     ]))
-    .pipe(gulp.dest('source/images'));
+    .pipe(gulp.dest('source/dist/images'));
 };
 
 function buildAll(cb){
-  stylusToMinCss();
+  cssMinify();
+  jsMinify();
   imageMinify();
   cb();
 }
-function MinImg(cb){
+function minImg(cb){
   imageMinify();
   cb();
 }
-function MinCss(cb){
-  stylusToMinCss();
+function minCss(cb){
+  cssMinify();
+  cb();
+}
+function minJs(cb){
+  jsMinify();
   cb();
 }
 
 exports.default = buildAll;
-exports.img = MinImg;
-exports.css = MinCss;
+exports.clean = clean;
+exports.img = minImg;
+exports.css = minCss;
+exports.js = minJs;
