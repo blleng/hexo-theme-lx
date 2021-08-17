@@ -1,11 +1,13 @@
-<div id="lx-aside" style="background-image: url(<%- url_for(theme.cover)%>)">
-  <div class="overlay">
-  <div class="featured">
-    <div class="avatar"><a href="<%- config.root%>"><img src="<%- url_for(theme.avatar)%>"></a></div>
-    <span><%- config.author%></span>
-    <h1><%- config.title%></h1>
-    <%if(config.subtitle.length) {%><span><%- config.subtitle%></span><%}%>
-    <%if (theme.social.enable) { %><%- partial('sociallinks')%><%}%>
-  </div>
+<div class="header">
+  <div id="lx-aside" style="background-image: url(<%- url_for(theme.cover)%>)">
+    <div class="overlay">
+      <div class="featured">
+        <div class="avatar"><a href="<%- config.root%>"><img src="<%- url_for(theme.avatar)%>" alt="<%- config.author%>"></a></div>
+        <span><%- config.author%></span>
+        <h1><%- config.title%></h1>
+        <%if(config.subtitle.length) {%><span><%- config.subtitle%></span><%}%>
+        <%if (theme.social.enable) { %><%- partial('sociallinks')%><%}%>
+      </div>
+    </div>
   </div>
 </div>
