@@ -278,46 +278,36 @@ pre .javascript .function {
 .lx-post .note.danger h6 {
   color: #d9534f;
 }
-.blockquote-center,
-blockquote {
+blockquote.blockquote-center {
   position: relative;
-  margin: 40px 0;
-  padding: 0;
-  border-left: none;
-  text-align: center;
+  margin: 1.5em auto;
+  padding-left: 40px;
+  border: none;
 }
-.blockquote-center::before,
-blockquote::before,
-.blockquote-center::after,
-blockquote::after {
+blockquote.blockquote-center::before {
   position: absolute;
+  left: 0;
   content: ' ';
-  display: block;
-  width: 100%;
-  height: 24px;
-  opacity: 0.2;
+  width: 25px;
+  height: 25px;
   background-repeat: no-repeat;
-  background-position: 0 -6px;
-  background-size: 22px 22px;
+  background-size: 25px;
 }
 .blockquote-center::before,
 blockquote::before {
-  top: -20px;
-  background-image: url("../images/quote-l.svg");
-  border-top: 1px solid #ccc;
+  background-image: url("../images/quote.svg");
+  border: none;
 }
-.blockquote-center::after,
-blockquote::after {
-  bottom: -20px;
-  background-image: url("../images/quote-r.svg");
-  border-bottom: 1px solid #ccc;
-  background-position: 100% 8px;
-}
-.blockquote-center p,
-blockquote p,
-.blockquote-center div,
-blockquote div {
+blockquote.blockquote-center p {
+  line-height: 1.618;
   text-align: center;
+  hyphens: auto;
+}
+blockquote {
+  border-left: .25em solid $grey-w;
+  color: $grey-b;
+  padding: 0 1em;
+  margin-bottom: 15px;
 }
 .post-button a.btn{
   display: inline-block;
