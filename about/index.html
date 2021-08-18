@@ -171,27 +171,6 @@
 <h3 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">//fonts.googleapis.com</span></span><br><span class="line">  <span class="attr">codes:</span> <span class="comment">##the font of codes</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Fira</span> <span class="string">Code</span></span><br><span class="line">  <span class="attr">else:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">family:</span> </span><br></pre></td></tr></table></figure>
 
 <h3 id="Custom-css"><a href="#Custom-css" class="headerlink" title="Custom css"></a>Custom css</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">custom_css:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># If true, Lx will load &#x27;source/css/custom.styl&#x27;.</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Style"><a href="#Style" class="headerlink" title="Style"></a>Style</h2><h3 id="Excerpt"><a href="#Excerpt" class="headerlink" title="Excerpt"></a>Excerpt</h3><p>the content before <code>&lt;!--more--&gt;</code> will be showed at the home page.</p>
-<h3 id="Note-tag"><a href="#Note-tag" class="headerlink" title="Note tag"></a>Note tag</h3><p>options: <code>default</code>、<code>info</code>、<code>primary</code>、<code>success</code>、<code>warning</code>、<code>danger</code></p>
-<p>eg：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;%note default%&#125;</span><br><span class="line"><span class="section">### title</span></span><br><span class="line">content</span><br><span class="line">&#123;%endnote%&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Label-tag"><a href="#Label-tag" class="headerlink" title="Label tag"></a>Label tag</h3><p>options: <code>default</code>、<code>info</code>、<code>primary</code>、<code>success</code>、<code>warning</code>、<code>danger</code></p>
-<p>eg：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%label default@content%&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Button-tag"><a href="#Button-tag" class="headerlink" title="Button tag"></a>Button tag</h3><p>buttion：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;%btn url,content,hand-o-right fa-fw,title%&#125;</span><br></pre></td></tr></table></figure>
-
-<p>options: <code>url</code> <code>content</code> <code>hand-o-right fa-fw</code> <code>fa-fw</code> <code>title</code></p>
-<h3 id="center-quote-tag"><a href="#center-quote-tag" class="headerlink" title="center-quote tag"></a>center-quote tag</h3><p>eg：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;%cq%&#125;</span><br><span class="line">人类的悲欢并不相通，我只觉得他们吵闹。<span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span>——鲁迅<span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br><span class="line">&#123;%endcq%&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="video-tag"><a href="#video-tag" class="headerlink" title="video tag"></a>video tag</h3><p>eg：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% video url %&#125;</span><br></pre></td></tr></table></figure>
-<p>options: <code>url</code></p>
-
       </div>
     </div>		
   </div>
