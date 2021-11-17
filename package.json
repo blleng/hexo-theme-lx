@@ -2,7 +2,7 @@
   "name": "theme-lx",
   "version": "0.4.1-0",
   "description": "A simle & clear & elegant hexo theme",
-  "main": "source/css/main.min.css",
+  "main": "source/dist/css/main.min.css",
   "scripts": {
     "test": "gulp"
   },
