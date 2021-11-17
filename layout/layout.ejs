@@ -12,7 +12,7 @@ var css = theme.base_file.css;
 %><!DOCTYPE html>
 <html <%if(config.language.length){%>lang="<%-config.language.substring(0,2)%>"<%}%>>
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content=<%- theme.theme_color%>>
   <title><%=pageTitle%></title>
@@ -39,10 +39,8 @@ var css = theme.base_file.css;
   <%-partial('third-party/analytics/index')%>
   <%- font()%>
   <link rel="stylesheet" href="<%= theme.font_awesome%>">
-  <% if(theme.fancybox.enable) {%><link rel="stylesheet" href="<%= theme.fancybox.css%>"><%}%>
 </head>
 <body>
-<% if(theme.fancybox.enable) {%><script src="<%= theme.fancybox.js%>"></script><%}%>
 <%- body %>
 <button class="hamburger hamburger--arrow-r" type="button" title="menu">
     <div class="hamburger-box">
@@ -81,6 +79,5 @@ var css = theme.base_file.css;
 </script>
 <%if (theme.local_search.enable) {%><script src="<%= js%>local.search.min.js"></script><%}%>
 <%if (theme.comment.enable) {%><%- partial('third-party/comment')%><%}%>
-<%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%>
-</body>
+<%if (theme.mathjax.enable) {%><%if (page.mathjax) {%><%- partial('third-party/mathjax')%><%}%><%}%></body>
 </html>
