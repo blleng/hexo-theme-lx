@@ -238,7 +238,7 @@ h2.title a {
 }
 .single .popup-trigger {
   position: absolute;
-  left: 93%;
+  left: 90%;
 }
 .local-search-pop-overlay {
   background-color: rgba(0,0,0,0.2);
@@ -562,7 +562,7 @@ a.category-link {
   }
   .popup-trigger {
     position: absolute;
-    left: 85%;
+    left: 90%;
   }
 }
 .hamburger {
