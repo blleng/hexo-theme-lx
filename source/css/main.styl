@@ -62,9 +62,15 @@ h2.title a{
   color: $selection-color;
   background: $selection-bg;
 }
+.lx-navigation {
+  max-width: 960px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+}
 .lx-navigation .prev {
   transition: 0.5s;
   text-align: right;
+  border-radius: 0 15px 15px 0;
 }
 .lx-navigation .prev:hover {
   padding-right: 30px;
@@ -72,12 +78,14 @@ h2.title a{
 .lx-navigation .next {
   transition: 0.5s;
   text-align: left;
+  border-radius: 15px 0 0 15px;
 }
 .lx-navigation .next:hover {
   padding-left: 30px;
 }
 .lx-navigation .lx-cover {
   width: 50%;
+  height: 132px;
   float: left;
   background-size: cover;
   background-position: center center;
@@ -92,6 +100,42 @@ h2.title a{
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+.lx-navigation .next .overlay {
+  border-radius: 15px 0 0 15px;
+}
+.lx-navigation .prev .overlay {
+  border-radius: 0 15px 15px 0;
+}
+.lx-navigation .lx-cover .copy {
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+.lx-navigation .lx-cover .copy .display-t, .lx-navigation .lx-cover .copy .display-tc {
+  height: 132px;
+  display: table;
+  width: 100%;
+}
+.lx-navigation .lx-cover .copy .display-tc {
+  display: table-cell;
+  vertical-align: middle;
+}
+.lx-navigation .lx-cover .copy .display-tc div {
+  padding: 30px;
+}
+.lx-navigation .lx-cover .copy .display-tc div span {
+  display: block;
+  margin-bottom: 5px;
+  color: $white-t-5;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .05em;
+}
+.lx-navigation .lx-cover .copy .display-tc div h3 {
+  margin-bottom: 0;
+  color: $white;
+  font-weight: 300;
 }
 #lx-aside {
   width: 38.2%;
@@ -109,9 +153,13 @@ h2.title a{
   position: relative;
   height: 375px;
   width: 100%;
+  border-radius: 15px;
+}
+.single #lx-aside .overlay {
+  border-radius: 15px;
 }
 #lx-aside a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 #lx-aside a:hover {
   color: $white;
@@ -183,7 +231,7 @@ h2.title a{
 }
 .single .popup-trigger {
   position: absolute;
-  left: 85%;
+  left: 90%;
 }
 .local-search-pop-overlay {
   background-color: $black-t-2;
@@ -301,6 +349,11 @@ footer {
   font-size: 12px;
   padding: 20px 60px;
 }
+.single .header {
+  padding: 10px 10px 0 10px;
+  max-width: 960px;
+  margin: 0 auto;
+}
 .single footer > div {
   max-width: 960px;
   margin: 0 auto;
@@ -409,36 +462,6 @@ a.category-link {
   line-height: 1.2rem;
   cursor: pointer;
 }
-.lx-navigation .lx-cover .copy {
-  position: relative;
-  z-index: 2;
-  display: block;
-}
-.lx-navigation .lx-cover .copy .display-t, .lx-navigation .lx-cover .copy .display-tc {
-  height: 270px;
-  display: table;
-  width: 100%;
-}
-.lx-navigation .lx-cover .copy .display-tc {
-  display: table-cell;
-  vertical-align: middle;
-}
-.lx-navigation .lx-cover .copy .display-tc div {
-  padding: 30px;
-}
-.lx-navigation .lx-cover .copy .display-tc div span {
-  display: block;
-  margin-bottom: 5px;
-  color: $white-t-5;
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: .05em;
-}
-.lx-navigation .lx-cover .copy .display-tc div h3 {
-  margin-bottom: 0;
-  color: $white;
-  font-weight: 300;
-}
 .comment{
   padding: 10px;
   margin-left: 0;
@@ -496,6 +519,8 @@ a.category-link {
   }
   .header {
     padding: 10px 10px 0 10px;
+    max-width: 960px;
+    margin: 0 auto;
   }
   #lx-main-content {
     margin-left: 0;
@@ -528,7 +553,7 @@ a.category-link {
   }
   .popup-trigger {
     position: absolute;
-    left: 85%;
+    left: 90%;
   }
 }
 @import "menu/menu";

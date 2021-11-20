@@ -1,6 +1,7 @@
 <div class="header">
   <div id="lx-aside" style="background-image: url(<%- url_for(theme.postcover)%>)" data-stellar-background-ratio="0.5">
     <div class="overlay">
+      <%if (theme.local_search.enable) {%><%- partial('\search-button')%><%}%>
       <div class="page-title">
         <div class="avatar"><a href="<%- config.root%>"><img src="<%- url_for(theme.avatar)%>" alt="<%- config.author%>"></a></div>
         <span><%-page.date.format("YYYY-MM-DD")%></span>
