@@ -1,7 +1,7 @@
 <div class="header">
   <div id="lx-aside" style="background-image: url(<%- url_for(theme.cover)%>)">
     <div class="overlay">
-      <%if (theme.local_search.enable) {%><%- partial('partials/search-button')%><%}%>
+      <%if (theme.local_search.enable) {%><%- partial('search-button')%><%}%>
       <div class="featured">
         <div class="avatar"><a href="<%- config.root%>"><img src="<%- url_for(theme.avatar)%>" alt="<%- config.author%>"></a></div>
         <span><%- config.author%></span>
