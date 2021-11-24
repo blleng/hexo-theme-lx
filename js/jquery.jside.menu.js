@@ -20,7 +20,7 @@
 $(target).css({
     "height" : devHeight-headHeight,
 });
-    if (setting.jSideSticky === true){f
+    if (setting.jSideSticky === true){
      $(".menubar").addClass("sticky");
 }  else{
      $(".menubar").removeClass("sticky");
