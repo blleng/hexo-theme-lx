@@ -579,7 +579,7 @@ a.category-link {
   bottom: 60px;
   width: 30px;
   height: 30px;
-  border-radius: 50%;
+  border-radius: 4px;
   background-color: rgba(247,65,65,0.761);
   line-height: 0;
   z-index: 21;
@@ -663,7 +663,6 @@ a.category-link {
   overflow: auto;
   display: block;
   top: 120px;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.3), 0 0 0 1px rgba(10,10,10,0.02);
 }
 .position-right {
   right: -270px;
@@ -682,11 +681,12 @@ a.category-link {
   position: fixed;
   width: 270px;
   background: #fff;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.3), 0 0 0 1px rgba(10,10,10,0.02);
 }
 .menu-head .layer {
   background: rgba(0,0,0,0.2);
   display: block;
-  padding: 15px;
+  padding: 27px 15px 27px 15px;
 }
 .menu-head {
   height: 120px;
@@ -704,7 +704,7 @@ a.category-link {
   padding: 10px;
   display: block;
   color: rgba(0,0,0,0.9);
-  border-bottom: 1px dotted $black-t-02;
+  border: none;
   margin: 0;
   cursor: pointer;
   user-select: none;
@@ -726,7 +726,7 @@ a.category-link {
 .menu .has-sub ul li a {
   display: block;
   padding: 12px 33px;
-  border-bottom: 0;
+  border: none;
   font-size: 13px;
   transition: 0.1s;
 }

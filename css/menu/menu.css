@@ -7,7 +7,7 @@
   bottom: 60px;
   width: 30px;
   height: 30px;
-  border-radius: 50%;
+  border-radius: 4px;
   background-color: $red-s-t;
   line-height: 0;
   z-index: 21;
@@ -91,7 +91,6 @@
   overflow: auto;
   display: block;
   top: 120px;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.3), 0 0 0 1px rgba(10,10,10,0.02);
 }
 .position-right {
   right: -270px;
@@ -110,11 +109,12 @@
   position: fixed;
   width: 270px;
   background: $white;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.3), 0 0 0 1px rgba(10,10,10,0.02);
 }
 .menu-head .layer {
   background: $black-t-2;
   display: block;
-  padding: 15px;
+  padding: 27px 15px 27px 15px;
 }
 .menu-head {
   height: 120px;
@@ -132,7 +132,7 @@
   padding: 10px;
   display: block;
   color: $black-t-9;
-  border-bottom: 1px dotted $black-t-02;
+  border: none;
   margin: 0;
   cursor: pointer;
   user-select: none;
@@ -155,7 +155,7 @@
 .menu .has-sub ul li a {
   display: block;
   padding: 12px 33px;
-  border-bottom: 0;
+  border: none;
   font-size: 13px;
   transition: 0.1s;
 }
