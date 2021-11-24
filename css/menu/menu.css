@@ -91,6 +91,8 @@
   overflow: auto;
   display: block;
   top: 120px;
+  background: $white;
+  box-shadow: 0 0.5em 1em -0.125em #0a0a01, 0 0 0 1px #0a0a0d;
 }
 .position-right {
   right: -270px;
@@ -213,10 +215,6 @@
 .tagline {
   font-size: 11px;
   display: block;
-}
-.background {
-  background: $white;
-  box-shadow: 0 0.5em 1em -0.125em #0a0a01, 0 0 0 1px #0a0a0d;
 }
 @-moz-keyframes fadeIn {
   from {
