@@ -91,8 +91,7 @@
   overflow: auto;
   display: block;
   top: 120px;
-  background: $white;
-  box-shadow: 0 0.5em 1em -0.125em #0a0a01, 0 0 0 1px #0a0a0d;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,0.3), 0 0 0 1px rgba(10,10,10,0.02);
 }
 .position-right {
   right: -270px;
@@ -110,6 +109,7 @@
 .menu-head {
   position: fixed;
   width: 270px;
+  background: $white;
 }
 .menu-head .layer {
   background: $black-t-2;
