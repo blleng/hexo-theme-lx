@@ -18,9 +18,10 @@ Any problem: [issue](https://github.com/blleng/hexo-theme-lx/issues)
 
 ## The latest release
 
-### V0.4.2
+### V0.4.3
 
 - Page header improved.
+- Menu improved.
 - Page footer navigation improved.
 - Several bugs fixed.
 
