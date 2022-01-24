@@ -3,7 +3,6 @@
     var setting = $.extend({
         jSidePosition: "position-right", //possible options position-left or position-right 
         jSideSticky: true, // menubar will be fixed on top, false to set static
-        jSideSkin: "greenish", // to apply custom skin, just put its name in this string
         jSideTransition: 400, //Define the transition duration in milliseconds 
         }, options);
   return this.each(function() {
@@ -26,8 +25,7 @@ $(target).css({
 }  else{
      $(".menubar").removeClass("sticky");
    }
-$(".menubar").addClass(setting.jSideSkin);
-$(jSide).addClass(setting.jSideSkin).addClass(setting.jSidePosition);
+$(jSide).addClass(setting.jSidePosition);
 $(".hamburger").addClass("right");
 //Dropdown Arrow
     $(arrow).addClass("fa fa-chevron-down").appendTo(dHeading);
