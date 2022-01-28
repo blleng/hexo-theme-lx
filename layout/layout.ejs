@@ -21,6 +21,7 @@ var css = theme.base_file.css;
   <meta name="keywords" content="<%- config.keywords%>">
   <meta name="description" content="<%- config.description%>">
   <%- partial('partials/config')%>
+  <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
   <link rel="shortcut icon" href="<%- url_for(theme.favicon)%>">
   <link rel="stylesheet" href="<%= css%>">
   <% if(theme.custom_css) {%><link rel="stylesheet" href="/css/custom.css"><%}%>
