@@ -149,7 +149,7 @@ theme_config:
     appid: tLxzstD3vEiOSxwWGjynT5XP-gzGzoHsz
     appkey: YHkuTnCBpCcsod800tQRMahH
     notify: false
-    verify: false
+    verify: true
     placeholder: Say something...
     avatar: identicon
     guest_info: nick,mail,link
