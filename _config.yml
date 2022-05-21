@@ -94,7 +94,7 @@ comment:
   guest_info: nick,mail,link
   pageSize: 10
   language: en
-  cdn: https://unpkg.com/valine@1.4.16/dist/Valine.min.js
+  cdn: https://unpkg.com/valine@1.4.18/dist/Valine.min.js
 
 # Mathjax
 mathjax:
