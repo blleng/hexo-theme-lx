@@ -13,16 +13,16 @@ theme_color: "#58b77a"
 personal_des: Hello, World!
 
 # avatar
-avatar: https://unpkg.com/theme-lx@0.4.3/source/dist/images/avatar.min.jpeg
+avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/avatar.min.jpeg
 
 ###The options below are images information
 # Home cover
-cover: https://unpkg.com/theme-lx@0.4.3/source/dist/images/cover.min.jpeg
+cover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/cover.min.jpeg
 # page cover
-postcover: https://unpkg.com/theme-lx@0.4.3/source/dist/images/post_cover.min.jpeg
+postcover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/post_cover.min.jpeg
 # the cover of newer or older post
-pre_post: https://unpkg.com/theme-lx@0.4.3/source/dist/images/footer-r.min.jpeg
-nex_post: https://unpkg.com/theme-lx@0.4.3/source/dist/images/footer-l.min.jpeg
+pre_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/footer-r.min.jpeg
+nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/footer-l.min.jpeg
 
 # menu content
 menu:
@@ -94,15 +94,15 @@ comment:
   guest_info: nick,mail,link
   pageSize: 10
   language: en
-  cdn: https://unpkg.com/valine@1.4.16/dist/Valine.min.js
+  cdn: https://cdn.jsdelivr.net/npm/valine@1.4.16/dist/Valine.min.js
 
 # Mathjax
 mathjax:
   enable: true
-  cdn: https://unpkg.com/mathjax@3/es5/tex-mml-svg.js
+  cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
 
 # FontAwesome-CDN
-font_awesome: https://unpkg.com/font-awesome@4/css/font-awesome.min.css
+font_awesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
 # Font
 font:
@@ -130,6 +130,6 @@ custom_css: false
 
 #The dir of Js and Css
 base_file:
-  jquery_cdn: https://unpkg.com/jquery@3.4.1/dist/jquery.min.js
-  js: https://unpkg.com/theme-lx@0.4.3/source/dist/js/
-  css: https://unpkg.com/theme-lx@0.4.3/source/dist/css/main.min.css
+  jquery_cdn: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+  js: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/
+  css: https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/css/main.min.css
