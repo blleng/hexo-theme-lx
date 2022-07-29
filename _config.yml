@@ -155,7 +155,7 @@ theme_config:
     guest_info: nick,mail,link
     pageSize: 10
     language: en
-    cdn: https://unpkg.com/valine@1.4.18/dist/Valine.min.js
+    cdn: https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js
   
   base_file:
     css: /dist/css/main.min.css
