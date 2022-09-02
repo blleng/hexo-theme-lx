@@ -1,10 +1,10 @@
 {
   "name": "theme-lx",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "A simle & clear & elegant hexo theme",
   "main": "source/dist/css/main.min.css",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp clean && gulp"
   },
   "repository": {
     "type": "git",
