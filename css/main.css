@@ -394,6 +394,7 @@ a.category-link {
 }
 .lx-post {
   padding: 10px;
+  word-wrap: break-word;
 }
 .lx-post .lx-entry {
   float: left;
