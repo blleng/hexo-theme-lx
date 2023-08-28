@@ -115,6 +115,9 @@ font:
     enable: false
     family: Noto Serif SC
 
+# Custom head code
+custom_head: 
+
 # Custom CSS
 # If true, Lx will load 'source/css/custom.styl'
 custom_css: false
