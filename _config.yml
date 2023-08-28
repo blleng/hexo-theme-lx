@@ -144,8 +144,6 @@ theme_config:
 
   google_analytics: G-QPVRQ69QF6
 
-  custom_head: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880124247029361" crossorigin="anonymous"></script>
-
   comment:
     enable: true
     appid: tLxzstD3vEiOSxwWGjynT5XP-gzGzoHsz
