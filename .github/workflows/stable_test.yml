@@ -1,13 +1,10 @@
-# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
 name: Stable Theme Test
 
 on:
   push:
-    branches: [master]
+    branches: [ master, main ]
   pull_request:
-    branches: [master]
+    branches: [ master, main ]
 
 env:
   TZ: Asia/Shanghai
@@ -19,36 +16,34 @@ jobs:
 
     steps:
     - name: Checkout codes
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         repository: 'blleng/lx-test'
+        fetch-depth: 0
 
-    - name: Setup node
-      uses: actions/setup-node@v1
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        node-version: '16.x'
-
-    - name: Cache node modules
-      uses: actions/cache@v1
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        node-version: '20.x'
+        cache: 'npm'
 
     - name: Install dependencies
       run: |
         npm install -g hexo-cli
-        npm install
+        npm ci
         git clone -b dev https://github.com/blleng/hexo-theme-lx/ themes/lx
+
     - name: Generate files
       run: |
-        hexo clean
-        hexo generate
-    - name: Deploy to gh-page🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
+        npx hexo clean
+        npx hexo generate
+
+    - name: Deploy to GitHub Pages 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        git-config-name: blleng
-        git-config-email: l0bl@outlook.com
-        repository-name: blleng/lx-test
+        folder: public
         branch: gh-page
         token: ${{ secrets.LX_STABLE_REPO }}
-        folder: public
+        repository-name: blleng/lx-test
+        git-config-name: blleng
+        git-config-email: lengbl@outlook.com
